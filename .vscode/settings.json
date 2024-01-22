@@ -1,0 +1,7 @@
+{
+    "sqfVmLanguageServer.Executable.PathMappings": [
+        {"physical": "./addons", "virtual": "\\z\\pmcs\\addons"}
+    ],
+    "sqf.enableACE3": true,
+    "sqf.enableCBA": true
+}
