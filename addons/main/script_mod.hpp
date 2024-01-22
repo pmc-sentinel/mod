@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX TST
+#define PREFIX pmcs
 
 #include "script_version.hpp"
 

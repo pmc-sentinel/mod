@@ -6,11 +6,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"cba_main"};
-        author = ECSTRING(common,PMCSTeam);
-        url = CSTRING(url);
+        requiredAddons[] = {"ace_main"};
+        author = CSTRING(PMCSTeam);
+        authors[] = {"hbjydev"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
-
-#include "CfgMods.hpp"
