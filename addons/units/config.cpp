@@ -16,8 +16,10 @@ class CfgPatches {
             "MCX_Virtus_cfg",
             "VSM_HELMETS",
             "VSM_Multicam_Config",
+            "ace_compat_rhs_usf3",
             "ace_thermals",
-            "ace_vector"
+            "ace_vector",
+            "rhsusf_c_weapons"
         };
         author = ECSTRING(common,PMCSTeam);
         authors[] = {"hbjydev"};

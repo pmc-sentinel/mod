@@ -26,7 +26,7 @@ class PMCS_B_Soldier_base : B_Soldier_base_F {
 
 	uniformClass = "VSM_Multicam_Crye_grey_shirt_Camo";
 
-	linkedItems[] = { "VSM_LBT6094_operator_multicam", "VSM_OPS_multicam", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
+	linkedItems[] = { "VSM_LBT6094_operator_multicam", "VSM_OPS_multicam", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ACE_Vector" };
 	respawnLinkedItems[] = { "VSM_LBT6094_operator_multicam", "VSM_OPS_multicam", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
 };
 
@@ -43,12 +43,12 @@ class PMCS_B_Rifleman : PMCS_B_Soldier_base {
 
 	backpack = "VSM_Multicam_Backpack_Compact";
 
-	weapons[] = { "MCX_Virtus_14_b_s4", "hgun_P07_F", "Throw", "Put" };
-	respawnWeapons[] = { "MCX_Virtus_14_b_s4", "hgun_P07_F", "Throw", "Put" };
+	weapons[] = { "PMCS_MCX_Virtus_14_b_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_MCX_Virtus_14_b_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
 
 	Items[] = { "FirstAidKit" };
 	RespawnItems[] = { "FirstAidKit" };
 
-	magazines[] = { MAG_5(ACE_30Rnd_556x45_Stanag_Mk318_mag), MAG_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
-	respawnMagazines[] = { MAG_5(ACE_30Rnd_556x45_Stanag_Mk318_mag), MAG_2(16Rnd_9x21_Mag), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
