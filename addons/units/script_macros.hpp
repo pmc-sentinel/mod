@@ -9,6 +9,17 @@
 
 #define UNITGROUP(SIDE,NAME) QUOTE(PMCS_##SIDE##_##NAME)
 
+#define WITEM(NAME,SLOT,ITEM) class LinkedItems##NAME { \
+	item = QUOTE(ITEM); \
+	slot = QUOTE(SLOT); \
+}
+
+#define WOPTIC(ITEM) WITEM(Optic,CowsSlot,##ITEM##)
+#define WPOINTER(ITEM) WITEM(Pointer,PointerSlot,##ITEM##)
+#define WMUZZLE(ITEM) WITEM(Muzzle,MuzzleSlot,##ITEM##)
+#define WBIPOD(ITEM) WITEM(Bipod,BipodSlot,##ITEM##)
+#define WUNDERBARREL(ITEM) WITEM(Under,UnderBarrelSlot,##ITEM##)
+
 #define MAG_2(a) QUOTE(a), QUOTE(a)
 #define MAG_3(a) QUOTE(a), QUOTE(a), QUOTE(a)
 #define MAG_4(a) QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a)

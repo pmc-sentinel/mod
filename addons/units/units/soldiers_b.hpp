@@ -43,12 +43,35 @@ class PMCS_B_Rifleman : PMCS_B_Soldier_base {
 
 	backpack = "VSM_Multicam_Backpack_Compact";
 
-	weapons[] = { "PMCS_MCX_Virtus_14_b_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
-	respawnWeapons[] = { "PMCS_MCX_Virtus_14_b_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	weapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
 
 	Items[] = { "FirstAidKit" };
 	RespawnItems[] = { "FirstAidKit" };
 
 	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+};
+
+class PMCS_B_Marksman : PMCS_B_Soldier_base {
+	displayName = CSTRING(Soldier_Marksman);
+
+	scope 	     = 2; // available in 3den
+	scopeCurator = 2; // available in Zeus
+	scopeArsenal = 2; // available in arsenal
+
+	canDeactivateMines   = 0;
+	engineer             = 0;
+	attendant            = 0; // Has Medic trait
+
+	backpack = "VSM_Multicam_Backpack_Compact";
+
+	weapons[] = { "PMCS_MCX_SpearLT_762_16_s1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_MCX_SpearLT_762_16_s1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+
+	Items[] = { "FirstAidKit" };
+	RespawnItems[] = { "FirstAidKit" };
+
+	magazines[] = { MAG_5(MCX_28Rnd_762R_AP_mag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	respawnMagazines[] = { MAG_5(MCX_28Rnd_762R_AP_mag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
