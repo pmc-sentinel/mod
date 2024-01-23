@@ -3,7 +3,16 @@
 	priority = PRIORITY; \
 }
 
+#define MACRO_ADDUNITSUBCAT(SIDE,NAME) class PMCS_##SIDE##_##NAME { \
+	displayName = CSTRING(UnitGroup_##NAME); \
+}
+
 #define UNITGROUP(SIDE,NAME) QUOTE(PMCS_##SIDE##_##NAME)
+
+#define LINKEDITEMS(items) linkedItems[] = items; respawnLinkedItems[] = items
+#define WEAPONS(items) weapons[] = items; respawnWeapons[] = items
+#define ITEMS(items) Items[] = items; RespawnItems[] = items
+#define MAGAZINES(items) magazines[] = items; respawnMagazines[] = items
 
 #define MAG_2(a) "a", "a"
 #define MAG_3(a) "a", "a", "a"
