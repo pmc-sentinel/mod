@@ -2,3 +2,21 @@ name = "PMC Sentinel"
 author = "PMC Sentinel Team"
 prefix = "pmcs"
 mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "README*.md",
+    "LICENSE",
+    "logo_pmcs.paa",
+    "meta.cpp",
+]
+
+[hemtt.launch]
+workshop = [
+    "450814997",  # CBA_A3
+    "823636749",  # VSM All-In-One Collection
+    "2461160363", # MCX Virtus
+    "463939057",  # ace
+    "1661066023", # RKSL Studios - Attachments v3.02
+]
