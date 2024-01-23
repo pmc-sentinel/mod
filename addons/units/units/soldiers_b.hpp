@@ -53,6 +53,52 @@ class PMCS_B_Rifleman : PMCS_B_Soldier_base {
 	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
 
+class PMCS_B_Rifleman_LAT : PMCS_B_Soldier_base {
+	displayName = CSTRING(Soldier_Rifleman_LAT);
+
+	scope 	     = 2; // available in 3den
+	scopeCurator = 2; // available in Zeus
+	scopeArsenal = 2; // available in arsenal
+
+	canDeactivateMines   = 0;
+	engineer             = 0;
+	attendant            = 0; // Has Medic trait
+
+	backpack = "VSM_Multicam_Backpack_Compact";
+
+	weapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+
+	Items[] = { "FirstAidKit" };
+	RespawnItems[] = { "FirstAidKit" };
+
+	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+};
+
+class PMCS_B_Autorifleman : PMCS_B_Soldier_base {
+	displayName = CSTRING(Soldier_Autorifleman);
+
+	scope 	     = 2; // available in 3den
+	scopeCurator = 2; // available in Zeus
+	scopeArsenal = 2; // available in arsenal
+
+	canDeactivateMines   = 0;
+	engineer             = 0;
+	attendant            = 0; // Has Medic trait
+
+	backpack = "VSM_Multicam_Backpack_Compact";
+
+	weapons[] = { "PMCS_M249_PIP_RIS", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_M249_PIP_RIS", "rhsusf_weap_glock17g4", "Throw", "Put" };
+
+	Items[] = { "FirstAidKit" };
+	RespawnItems[] = { "FirstAidKit" };
+
+	magazines[] = { MAG_3(rhsusf_200Rnd_556x45_box), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	respawnMagazines[] = { MAG_3(rhsusf_200Rnd_556x45_box), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+};
+
 class PMCS_B_Marksman : PMCS_B_Soldier_base {
 	displayName = CSTRING(Soldier_Marksman);
 
