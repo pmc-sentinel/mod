@@ -1,10 +1,4 @@
-name = "PMC Sentinel Factions"
-author = "PMC Sentinel"
+name = "PMC Sentinel"
+author = "PMC Sentinel Team"
 prefix = "pmcs"
 mainprefix = "z"
-
-[version]
-major = 0
-minor = 1
-patch = 0
-build = 1

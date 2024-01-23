@@ -26,5 +26,5 @@ jobs:
       - name: Upload Release
         uses: actions/upload-artifact@v2
         with:
-          name: lrpgfactions-latest
-          path: releases/lrpgfactions-latest.zip
+          name: pmcs-latest
+          path: releases/pmcs-latest.zip
