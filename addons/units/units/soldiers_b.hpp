@@ -30,6 +30,33 @@ class PMCS_B_Soldier_base : B_Soldier_base_F {
 	respawnLinkedItems[] = { "VSM_LBT6094_operator_multicam", "VSM_OPS_multicam", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
 };
 
+class PMCS_B_SquadLeader : PMCS_B_Soldier_base {
+	displayName = CSTRING(Soldier_SquadLeader);
+
+	scope 	     = 2; // available in 3den
+	scopeCurator = 2; // available in Zeus
+	scopeArsenal = 2; // available in arsenal
+
+	canDeactivateMines   = 0;
+	engineer             = 0;
+	attendant            = 0; // Has Medic trait
+
+	backpack = "tfw_ilbe_whip_mc";
+
+	weapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
+
+	Items[] = { "FirstAidKit" };
+	RespawnItems[] = { "FirstAidKit" };
+
+	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+};
+
+class PMCS_B_TeamLeader : PMCS_B_SquadLeader {
+	displayName = CSTRING(Soldier_TeamLeader);
+};
+
 class PMCS_B_Rifleman : PMCS_B_Soldier_base {
 	displayName = CSTRING(Soldier_Rifleman);
 

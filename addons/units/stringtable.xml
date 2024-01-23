@@ -10,6 +10,12 @@
         </Key>
 
         <!-- Units -->
+        <Key ID="STR_PMCS_Units_Soldier_SquadLeader">
+            <English>Squad Leader</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_TeamLeader">
+            <English>Team Leader</English>
+        </Key>
         <Key ID="STR_PMCS_Units_Soldier_Rifleman">
             <English>Rifleman</English>
         </Key>
