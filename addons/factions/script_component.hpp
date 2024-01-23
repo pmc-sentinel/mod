@@ -1,5 +1,5 @@
-#define COMPONENT units
-#define COMPONENT_BEAUTIFIED units
+#define COMPONENT factions
+#define COMPONENT_BEAUTIFIED factions
 #include "\z\pmcs\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
@@ -15,4 +15,3 @@
 #endif
 
 #include "\z\pmcs\addons\main\script_macros.hpp"
-#include "script_macros.hpp"

@@ -1,0 +1,14 @@
+name = "PMC Sentinel";
+picture = "logo_pmcs.paa";
+actionName = "Discord";
+action = "https://discord.gg/Ctfu2DTb7f";
+description = "";
+logo = "logo_pmcs.paa";
+logoOver = "logo_pmcs.paa";
+tooltip = "PMC Sentinel";
+tooltipOwned = "PMC Sentinel Owned";
+overview = "pepega amirite";
+author = "PMC Sentinel Team";
+overviewPicture = "logo_pmcs.paa";
+overviewText = "PMC Sentinel overviewText";
+overviewFootnote = "yep";

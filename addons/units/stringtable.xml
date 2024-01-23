@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ACE">
+    <Package name="Units">
+        <Key ID="STR_PMCS_Units_UnitGroup_Men">
+            <English>Men</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_UnitGroup_Helicopters">
+            <English>Helicopters</English>
+        </Key>
+    </Package>
+</Project>

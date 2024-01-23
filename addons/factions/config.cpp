@@ -14,5 +14,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgVehicleClasses.hpp"
-#include "CfgVehicles.hpp"
+#include "CfgFactionClasses.hpp"

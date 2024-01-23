@@ -8,6 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"cba_main"};
         author = ECSTRING(common,PMCSTeam);
+        authors[] = {"hbjydev"};
         url = CSTRING(url);
         VERSION_CONFIG;
     };

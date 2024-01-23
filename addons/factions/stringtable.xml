@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ACE">
+    <Package name="Factions">
+        <Key ID="STR_PMCS_Factions_BLUFOR_DisplayName">
+            <English>PMC Sentinel</English>
+        </Key>
+    </Package>
+</Project>

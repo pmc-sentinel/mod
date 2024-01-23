@@ -3,8 +3,8 @@ class CfgMods {
         dir = "@pmcs";
         name = "PMC Sentinel";
         picture = "z\pmcs\addons\main\logo_pmcs.paa";
-		hidePicture = 1;
-		hideName = 1;
+		hidePicture = 0;
+		hideName = 0;
 		actionName = "Discord";
 		action = CSTRING(URL);
 		description = "A mod that adds functionality specific to PMC Sentinel into Arma 3.";
