@@ -139,7 +139,7 @@ class CfgGroups {
 				name = CSTRING(GroupSet_Support);
 
 				class pmcs_b_su_mm {
-					name = CSTRING(Group_SU_MarksmanPair);
+					name = CSTRING(Group_SU_GunnerPair);
 					GMETA;
 
 					UNIT_0(SERGEANT,PMCS_B_Autorifleman);
