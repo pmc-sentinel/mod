@@ -20,7 +20,7 @@ class PMCS_B_Soldier_base : B_Soldier_base_F {
 	threat[]    = { 1, 1, 0.8 };
 
 	hiddenSelections[] 		   = { "Camo", "Insignia" };
-	hiddenSelectionsTextures[] = { "VSM_Multicam\Data\VSM_ARD_Multicam_grey_shirt_1.paa" };
+	hiddenSelectionsTextures[] = { "VSM_Multicam\Data\VSM_ARD_Multicam_grey_shirt_1.paa", "z\pmcs\addons\patches\pmcs_insig.paa" };
 
 	model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
 
