@@ -50,5 +50,13 @@
         <Key ID="STR_PMCS_Factions_Group_MO_Transport">
             <English>Squad with Transport</English>
         </Key>
+
+        <Key ID="STR_PMCS_Factions_Group_SP_MarksmanPair">
+            <English>Marksman Team</English>
+        </Key>
+
+        <Key ID="STR_PMCS_Factions_Group_SU_GunnerPair">
+            <English>Suppression Team</English>
+        </Key>
     </Package>
 </Project>

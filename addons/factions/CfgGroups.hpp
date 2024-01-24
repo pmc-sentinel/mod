@@ -125,12 +125,26 @@ class CfgGroups {
 
 			class SpecOps {
 				name = CSTRING(GroupSet_SpecOps);
-				// TODO: Marksman Team
+
+				class pmcs_b_so_mm {
+					name = CSTRING(Group_SP_MarksmanPair);
+					GMETA;
+
+					UNIT_0(SERGEANT,PMCS_B_Marksman);
+					UNIT_1(CORPORAL,PMCS_B_Marksman);
+				};
 			};
 
 			class Support {
 				name = CSTRING(GroupSet_Support);
-				// TODO: Gunner Pair
+
+				class pmcs_b_su_mm {
+					name = CSTRING(Group_SU_MarksmanPair);
+					GMETA;
+
+					UNIT_0(SERGEANT,PMCS_B_Autorifleman);
+					UNIT_1(CORPORAL,PMCS_B_Autorifleman);
+				};
 			};
 		};
 	};
