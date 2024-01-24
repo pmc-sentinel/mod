@@ -1,8 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ACE">
     <Package name="Factions">
+        <!-- Faction Data -->
         <Key ID="STR_PMCS_Factions_BLUFOR_DisplayName">
             <English>PMC Sentinel</English>
+        </Key>
+
+        <!-- Group Sets -->
+        <Key ID="STR_PMCS_Factions_GroupSet_Armored">
+            <English>Armored</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_GroupSet_Infantry">
+            <English>Infantry</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_GroupSet_Mechanized">
+            <English>Mechanized Infantry</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_GroupSet_Motorized">
+            <English>Motorized Infantry</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_GroupSet_SpecOps">
+            <English>Special Operations</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_GroupSet_Support">
+            <English>Support Infantry</English>
+        </Key>
+
+        <!-- Groups -->
+        <Key ID="STR_PMCS_Factions_Group_I_Squad">
+            <English>Squad</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_Group_I_FireTeam">
+            <English>Fire Team</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_Group_I_FireTeam2">
+            <English>Fire Team (alt.)</English>
+        </Key>
+
+        <Key ID="STR_PMCS_Factions_Group_ME_Patrol">
+            <English>Mechanized Patrol</English>
+        </Key>
+
+        <Key ID="STR_PMCS_Factions_Group_MO_Patrol">
+            <English>Motorized Patrol</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_Group_MO_PatrolHeavy">
+            <English>Motorized Patrol (Heavy)</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_Group_MO_Transport">
+            <English>Squad with Transport</English>
         </Key>
     </Package>
 </Project>

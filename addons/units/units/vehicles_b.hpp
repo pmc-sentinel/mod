@@ -1,6 +1,7 @@
 // Inheritance Imports
 class rhsusf_m1165a1_gmv_m2_m240_socom_d;
 class rhsusf_M1078A1P2_B_M2_D_flatbed_fmtv_usarmy;
+class rhsusf_M1083A1P2_B_M2_D_fmtv_usarmy;
 class rhsusf_m1a1aimd_usarmy;
 class rhsusf_M1232_MC_M2_usmc_d;
 class rhsusf_m113d_usarmy;
@@ -10,15 +11,19 @@ class vtx_UH60M;
 class vtx_MH60M_DAP_MLASS;
 
 // Overrides for crew & gunners
-class PMCS_B_D_M1165A1_GMV_M2_M240_SOCOM_D : rhsusf_m1165a1_gmv_m2_m240_socom_d {
+class PMCS_B_D_M1165A1_GMV_M2_M240_SOCOM : rhsusf_m1165a1_gmv_m2_m240_socom_d {
 	B_VCREW;
 };
 
-class PMCS_B_D_M1078A1P2_BM2_Flatbed_01 : rhsusf_M1078A1P2_B_M2_D_flatbed_fmtv_usarmy {
+class PMCS_B_D_M1078A1P2_M2_Flatbed_01 : rhsusf_M1078A1P2_B_M2_D_flatbed_fmtv_usarmy {
 	B_VCREW;
 };
 
-class PMCS_B_D_M1A1AIMD : rhsusf_m1a1aimd_usarmy {
+class PMCS_B_D_M1083A1P2_M2_fmtv : rhsusf_M1083A1P2_B_M2_D_fmtv_usarmy {
+	B_VCREW;
+};
+
+class PMCS_B_D_M1A1AIM : rhsusf_m1a1aimd_usarmy {
 	B_VCREW;
 };
 

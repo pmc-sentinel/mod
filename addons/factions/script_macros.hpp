@@ -1,3 +1,5 @@
+#define GMETA side = 1; faction = "PMCS_B"; icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa"; rarityGroup = 0.5
+
 #define UNIT_XX(IDX,POS,RANK,UNIT) class Unit##IDX## { \
 	position[] = POS; \
 	rank = QUOTE(RANK); \
