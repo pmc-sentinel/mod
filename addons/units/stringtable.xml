@@ -19,14 +19,20 @@
         <Key ID="STR_PMCS_Units_Soldier_Rifleman">
             <English>Rifleman</English>
         </Key>
-        <Key ID="STR_PMCS_Units_Soldier_Rifleman_LAT">
-            <English>Rifleman (Light AT)</English>
+        <Key ID="STR_PMCS_Units_Soldier_MissileSpecialist">
+            <English>Missile Specialist</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_EOD">
+            <English>Explosive Specialist</English>
         </Key>
         <Key ID="STR_PMCS_Units_Soldier_Autorifleman">
             <English>Autorifleman</English>
         </Key>
         <Key ID="STR_PMCS_Units_Soldier_Marksman">
             <English>Marksman</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_Medic">
+            <English>Medic</English>
         </Key>
         <Key ID="STR_PMCS_Units_Soldier_PilotHelicopter">
             <English>Helicopter Pilot</English>

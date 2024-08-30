@@ -7,9 +7,6 @@
         </Key>
 
         <!-- Group Sets -->
-        <Key ID="STR_PMCS_Factions_GroupSet_Armored">
-            <English>Armored</English>
-        </Key>
         <Key ID="STR_PMCS_Factions_GroupSet_Infantry">
             <English>Infantry</English>
         </Key>
@@ -33,8 +30,14 @@
         <Key ID="STR_PMCS_Factions_Group_I_FireTeam">
             <English>Fire Team</English>
         </Key>
-        <Key ID="STR_PMCS_Factions_Group_I_FireTeam2">
-            <English>Fire Team (alt.)</English>
+        <Key ID="STR_PMCS_Factions_Group_I_FireTeam_AT">
+            <English>Fire Team (AT)</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_Group_I_FireTeam_CLS">
+            <English>Fire Team (CLS)</English>
+        </Key>
+        <Key ID="STR_PMCS_Factions_Group_I_FireTeam_EOD">
+            <English>Fire Team (EOD)</English>
         </Key>
 
         <Key ID="STR_PMCS_Factions_Group_ME_Patrol">
@@ -51,8 +54,8 @@
             <English>Squad with Transport</English>
         </Key>
 
-        <Key ID="STR_PMCS_Factions_Group_SP_MarksmanPair">
-            <English>Marksman Team</English>
+        <Key ID="STR_PMCS_Factions_Group_SP_ReconTeam">
+            <English>Recon Team</English>
         </Key>
 
         <Key ID="STR_PMCS_Factions_Group_SU_GunnerPair">
