@@ -28,5 +28,8 @@
         <Key ID="STR_PMCS_Units_Soldier_Marksman">
             <English>Marksman</English>
         </Key>
+        <Key ID="STR_PMCS_Units_Soldier_PilotHelicopter">
+            <English>Helicopter Pilot</English>
+        </Key>
     </Package>
 </Project>

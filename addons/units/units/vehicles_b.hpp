@@ -44,11 +44,11 @@ class PMCS_B_D_M2StaticMG_MiniTripod : RHS_M2StaticMG_MiniTripod_USMC_D {
 };
 
 class PMCS_B_UH60M : vtx_UH60M {
-	B_VCREW;
+	B_HCREW;
 	editorSubcategory = "EdSubcat_Helicopters";
 };
 
 class PMCS_B_MH60M_DAP_MLASS : vtx_MH60M_DAP_MLASS {
-	B_VCREW;
+	B_HCREW;
 	editorSubcategory = "EdSubcat_Helicopters";
 };
