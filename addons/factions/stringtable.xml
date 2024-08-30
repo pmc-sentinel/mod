@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ACE">
+<Project name="PMC Sentinel">
     <Package name="Factions">
         <!-- Faction Data -->
-        <Key ID="STR_PMCS_Factions_BLUFOR_DisplayName">
-            <English>PMC Sentinel</English>
+        <Key ID="STR_PMCS_Factions_BLUFOR_DisplayName_D">
+            <English>PMC Sentinel (D)</English>
         </Key>
 
         <!-- Group Sets -->
