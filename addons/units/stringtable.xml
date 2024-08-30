@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="PMC Sentinel">
+<Project name="PMCS">
     <Package name="Units">
         <!-- Unit Groups -->
         <Key ID="STR_PMCS_Units_UnitGroup_Men">
@@ -8,7 +8,6 @@
         <Key ID="STR_PMCS_Units_UnitGroup_Helicopters">
             <English>Helicopters</English>
         </Key>
-
         <!-- Units -->
         <Key ID="STR_PMCS_Units_Soldier_SquadLeader">
             <English>Squad Leader</English>

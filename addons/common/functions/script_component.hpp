@@ -1,0 +1,1 @@
+#include "\z\pmcs\addons\common\script_component.hpp"

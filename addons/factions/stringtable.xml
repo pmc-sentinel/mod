@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="PMC Sentinel">
+<Project name="PMCS">
     <Package name="Factions">
         <!-- Faction Data -->
         <Key ID="STR_PMCS_Factions_BLUFOR_DisplayName_D">
             <English>PMC Sentinel (D)</English>
         </Key>
-
         <!-- Group Sets -->
         <Key ID="STR_PMCS_Factions_GroupSet_Infantry">
             <English>Infantry</English>
@@ -22,7 +21,6 @@
         <Key ID="STR_PMCS_Factions_GroupSet_Support">
             <English>Support Infantry</English>
         </Key>
-
         <!-- Groups -->
         <Key ID="STR_PMCS_Factions_Group_I_Squad">
             <English>Squad</English>
@@ -39,11 +37,9 @@
         <Key ID="STR_PMCS_Factions_Group_I_FireTeam_EOD">
             <English>Fire Team (EOD)</English>
         </Key>
-
         <Key ID="STR_PMCS_Factions_Group_ME_Patrol">
             <English>Mechanized Patrol</English>
         </Key>
-
         <Key ID="STR_PMCS_Factions_Group_MO_Patrol">
             <English>Motorized Patrol</English>
         </Key>
@@ -53,11 +49,9 @@
         <Key ID="STR_PMCS_Factions_Group_MO_Transport">
             <English>Squad with Transport</English>
         </Key>
-
         <Key ID="STR_PMCS_Factions_Group_SP_ReconTeam">
             <English>Recon Team</English>
         </Key>
-
         <Key ID="STR_PMCS_Factions_Group_SU_GunnerPair">
             <English>Suppression Team</English>
         </Key>
