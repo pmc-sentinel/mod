@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ACE">
+<Project name="PMC Sentinel">
     <Package name="Units">
         <!-- Unit Groups -->
         <Key ID="STR_PMCS_Units_UnitGroup_Men">
