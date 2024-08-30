@@ -193,8 +193,8 @@ class PMCS_B_Medic : PMCS_B_Soldier_base {
 
 	backpack = "VSM_Multicam_Backpack_Compact";
 
-	weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
-	respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
+	weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
 
 	Items[] = { "FirstAidKit" };
 	RespawnItems[] = { "FirstAidKit" };
