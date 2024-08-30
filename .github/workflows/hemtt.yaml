@@ -8,9 +8,9 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: recursive
 
@@ -20,8 +20,13 @@ jobs:
       - name: Initialize submodules
         run: git submodule init
 
-      - name: Run HEMTT build
+      - name: Run HEMTT build (Dev)
         run: hemtt release
+        if: github.event_name == 'pull_request'
+
+      - name: Run HEMTT build (Release Build)
+        run: hemtt release
+        if: github.ref_name == 'main'
 
       - name: Upload Release
         uses: actions/upload-artifact@v4
