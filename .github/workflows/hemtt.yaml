@@ -21,7 +21,7 @@ jobs:
         run: git submodule init
 
       - name: Run HEMTT build (Dev)
-        run: hemtt release
+        run: hemtt dev
         if: github.event_name == 'pull_request'
 
       - name: Run HEMTT build (Release Build)
