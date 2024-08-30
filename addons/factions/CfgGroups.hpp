@@ -10,6 +10,19 @@ class CfgGroups {
 			class Infantry {
 				name = CSTRING(GroupSet_Infantry);
 
+				class pmcs_b_inf_sq_ar {
+					name = CSTRING(Group_I_Squad_Archer);
+					GMETA;
+
+					UNIT_0(SERGEANT,PMCS_B_SquadLeader);
+					UNIT_1(CORPORAL,PMCS_B_Medic);
+					UNIT_2(PRIVATE,PMCS_B_EOD);
+
+					UNIT_3(SERGEANT,PMCS_B_TeamLeader);
+					UNIT_4(CORPORAL,PMCS_B_Autorifleman);
+					UNIT_5(PRIVATE,PMCS_B_MissileSpecialist);
+				};
+
 				class pmcs_b_inf_sq {
 					name = CSTRING(Group_I_Squad);
 					GMETA;
