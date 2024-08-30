@@ -9,7 +9,7 @@ class PMCS_B_Soldier_base : B_Soldier_base_F {
 	scopeArsenal = 0; // available in arsenal
 
 	side              = 1; // BLUFOR
-	faction           = "PMCS_B"; // set in addons/factions, not in addons/units
+	faction           = "PMCS_B_D"; // set in addons/factions, not in addons/units
 	editorSubcategory = UNITGROUP(B,Men);
 
 	identityTypes[] = { "LanguageENG_F", "Head_NATO", "G_NATO_Default" };
@@ -30,7 +30,7 @@ class PMCS_B_Soldier_base : B_Soldier_base_F {
 	respawnLinkedItems[] = { "VSM_LBT6094_operator_multicam", "VSM_OPS_multicam", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
 };
 
-class PMCS_B_SquadLeader : PMCS_B_Soldier_base {
+class PMCS_B_D_SquadLeader : PMCS_B_Soldier_base {
 	displayName = CSTRING(Soldier_SquadLeader);
 
 	scope 	     = 2; // available in 3den
@@ -52,12 +52,14 @@ class PMCS_B_SquadLeader : PMCS_B_Soldier_base {
 	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
+UCOPY(SquadLeader)
 
-class PMCS_B_TeamLeader : PMCS_B_SquadLeader {
+class PMCS_B_D_TeamLeader : PMCS_B_D_SquadLeader {
 	displayName = CSTRING(Soldier_TeamLeader);
 };
+UCOPY(TeamLeader)
 
-class PMCS_B_Rifleman : PMCS_B_Soldier_base {
+class PMCS_B_D_Rifleman : PMCS_B_Soldier_base {
 	displayName = CSTRING(Soldier_Rifleman);
 
 	scope 	     = 2; // available in 3den
@@ -79,13 +81,15 @@ class PMCS_B_Rifleman : PMCS_B_Soldier_base {
 	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
+UCOPY(Rifleman)
 
-class PMCS_B_EOD : PMCS_B_Rifleman {
+class PMCS_B_D_EOD : PMCS_B_D_Rifleman {
 	displayName        = CSTRING(Soldier_EOD);
 	canDeactivateMines = 1;
 };
+UCOPY(EOD)
 
-class PMCS_B_MissileSpecialist : PMCS_B_Soldier_base {
+class PMCS_B_D_MissileSpecialist : PMCS_B_Soldier_base {
 	displayName = CSTRING(Soldier_MissileSpecialist);
 
 	scope 	     = 2; // available in 3den
@@ -107,8 +111,9 @@ class PMCS_B_MissileSpecialist : PMCS_B_Soldier_base {
 	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), MAG_4(rhs_mag_maaws_hedp), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), MAG_4(rhs_mag_maaws_hedp), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
+UCOPY(MissileSpecialist)
 
-class PMCS_B_Autorifleman : PMCS_B_Soldier_base {
+class PMCS_B_D_Autorifleman : PMCS_B_Soldier_base {
 	displayName = CSTRING(Soldier_Autorifleman);
 
 	scope 	     = 2; // available in 3den
@@ -130,8 +135,9 @@ class PMCS_B_Autorifleman : PMCS_B_Soldier_base {
 	magazines[] = { MAG_3(rhsusf_200Rnd_556x45_box), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 	respawnMagazines[] = { MAG_3(rhsusf_200Rnd_556x45_box), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
+UCOPY(Autorifleman)
 
-class PMCS_B_Marksman : PMCS_B_Soldier_base {
+class PMCS_B_D_Marksman : PMCS_B_Soldier_base {
 	displayName = CSTRING(Soldier_Marksman);
 
 	scope 	     = 2; // available in 3den
@@ -153,8 +159,9 @@ class PMCS_B_Marksman : PMCS_B_Soldier_base {
 	magazines[] = { MAG_5(Tier1_20Rnd_762x51_M993_SR25_Mag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 	respawnMagazines[] = { MAG_5(Tier1_20Rnd_762x51_M993_SR25_Mag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
+UCOPY(Marksman)
 
-class PMCS_B_PilotHelicopter : PMCS_B_Soldier_base {
+class PMCS_B_D_PilotHelicopter : PMCS_B_Soldier_base {
 	displayName = CSTRING(Soldier_PilotHelicopter);
 
 	scope 	     = 2; // available in 3den
@@ -179,8 +186,9 @@ class PMCS_B_PilotHelicopter : PMCS_B_Soldier_base {
 	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
+UCOPY(PilotHelicopter)
 
-class PMCS_B_Medic : PMCS_B_Soldier_base {
+class PMCS_B_D_Medic : PMCS_B_Soldier_base {
 	displayName = CSTRING(Soldier_Medic);
 
 	scope 	     = 2; // available in 3den
@@ -202,3 +210,4 @@ class PMCS_B_Medic : PMCS_B_Soldier_base {
 	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
+UCOPY(Medic)

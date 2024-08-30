@@ -17,13 +17,13 @@ workshop = [
     "450814997",  # CBA_A3
     "823636749",  # VSM All-In-One Collection
     "463939057",  # ace
-    "1661066023", # RKSL Studios - Attachments v3.02
     "843577117",  # RHSUSAF
     "1875281645", # ILBE Assault Pack
     "894678801",  # Task Force Arrowhead Radio (BETA!!!)
     "2941986336", # Hatchet Framework - Stable Version
     "1745501605", # Hatchet H-60 pack - Stable Version
     "2268351256", # Tier One Weapons
+    "893349825",  # 3CB BAF Vehicles
 ]
 
 [hemtt.launch.alive]
@@ -31,13 +31,13 @@ workshop = [
     "450814997",  # CBA_A3
     "823636749",  # VSM All-In-One Collection
     "463939057",  # ace
-    "1661066023", # RKSL Studios - Attachments v3.02
     "843577117",  # RHSUSAF
     "1875281645", # ILBE Assault Pack
     "894678801",  # Task Force Arrowhead Radio (BETA!!!)
     "2941986336", # Hatchet Framework - Stable Version
     "1745501605", # Hatchet H-60 pack - Stable Version
     "2268351256", # Tier One Weapons
+    "893349825",  # 3CB BAF Vehicles
 
     "620260972", # ALiVE
 ]

@@ -5,12 +5,12 @@
         <Key ID="STR_PMCS_Factions_BLUFOR_DisplayName_D">
             <English>PMC Sentinel (D)</English>
         </Key>
+        <Key ID="STR_PMCS_Factions_BLUFOR_DisplayName_W">
+            <English>PMC Sentinel (W)</English>
+        </Key>
         <!-- Group Sets -->
         <Key ID="STR_PMCS_Factions_GroupSet_Infantry">
             <English>Infantry</English>
-        </Key>
-        <Key ID="STR_PMCS_Factions_GroupSet_Mechanized">
-            <English>Mechanized Infantry</English>
         </Key>
         <Key ID="STR_PMCS_Factions_GroupSet_Motorized">
             <English>Motorized Infantry</English>

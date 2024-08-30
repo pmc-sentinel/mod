@@ -8,6 +8,7 @@
 }
 
 #define UNITGROUP(SIDE,NAME) QUOTE(PMCS_##SIDE##_##NAME)
+#define UCOPY(IDX) class PMCS_B_W_##IDX : PMCS_B_D_##IDX { faction = "PMCS_B_W"; };
 
 #define WITEM(NAME,SLOT,ITEM) class LinkedItems##NAME { \
 	item = QUOTE(ITEM); \
@@ -32,5 +33,24 @@
 #define MAG_11(a) QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a)
 #define MAG_12(a) QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a)
 
-#define B_VCREW author = ECSTRING(common,PMCSTeam); faction = "PMCS_B"; crew = "PMCS_B_Rifleman"
-#define B_HCREW author = ECSTRING(common,PMCSTeam); faction = "PMCS_B"; crew = "PMCS_B_PilotHelicopter"
+#define B_VCREW(CAMO) author = ECSTRING(common,PMCSTeam); faction = QUOTE(PMCS_B_##CAMO); crew = QUOTE(PMCS_B_##CAMO##_Rifleman)
+#define B_HCREW(CAMO) author = ECSTRING(common,PMCSTeam); faction = QUOTE(PMCS_B_##CAMO); crew = QUOTE(PMCS_B_##CAMO##_PilotHelicopter)
+
+#define VECH_V(CAMO,NEWID,OLDID) class PMCS_B_##CAMO##_##NEWID : OLDID { B_VCREW(CAMO); }
+#define VECH_H(CAMO,NEWID,OLDID) class PMCS_B_##CAMO##_##NEWID : OLDID { B_HCREW(CAMO); editorSubcategory = "EdSubcat_Helicopters"; }
+
+#define GV_OR(CAMO,NEWID,OLDID) class OLDID; VECH_V(CAMO,NEWID,OLDID);
+#define GV_OR_NI(CAMO,NEWID,OLDID) VECH_V(CAMO,NEWID,OLDID);
+
+#define AV_OR(CAMO,NEWID,OLDID) class OLDID; VECH_H(CAMO,NEWID,OLDID);
+#define AV_OR_NI(CAMO,NEWID,OLDID) VECH_H(CAMO,NEWID,OLDID);
+
+#define GV_D_OR(NEWID,OLDID) GV_OR(D,NEWID,OLDID)
+#define GV_D_OR_NI(NEWID,OLDID) GV_OR_NI(D,NEWID,OLDID)
+#define AV_D_OR(NEWID,OLDID) AV_OR(D,NEWID,OLDID)
+#define AV_D_OR_NI(NEWID,OLDID) AV_OR_NI(D,NEWID,OLDID)
+
+#define GV_W_OR(NEWID,OLDID) GV_OR(W,NEWID,OLDID)
+#define GV_W_OR_NI(NEWID,OLDID) GV_OR_NI(W,NEWID,OLDID)
+#define AV_W_OR(NEWID,OLDID) AV_OR(W,NEWID,OLDID)
+#define AV_W_OR_NI(NEWID,OLDID) AV_OR_NI(W,NEWID,OLDID)
