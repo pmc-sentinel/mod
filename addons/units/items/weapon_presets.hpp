@@ -12,7 +12,7 @@ class PMCS_weap_m4a1 : rhs_weap_m4a1 {
 	class LinkedItems {
 		WOPTIC(rhsusf_acc_SU230);
 	};
-}
+};
 
 class PMCS_MCX_Virtus_14_f_s4 : MCX_Virtus_14_f_s4 {
 	class LinkedItems {
