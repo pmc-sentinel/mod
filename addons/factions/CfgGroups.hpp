@@ -1,11 +1,7 @@
 class CfgGroups {
 	class WEST {
 		class PMCS_B {
-			name = CSTRING(BLUFOR_DisplayName);
-
-			class Armored {
-				name = CSTRING(GroupSet_Armored);
-			};
+			name = CSTRING(BLUFOR_DisplayName_D);
 
 			class Infantry {
 				name = CSTRING(GroupSet_Infantry);
@@ -15,14 +11,12 @@ class CfgGroups {
 					GMETA;
 
 					UNIT_0(SERGEANT,PMCS_B_SquadLeader);
-					UNIT_1(CORPORAL,PMCS_B_Marksman);
-					UNIT_2(PRIVATE,PMCS_B_Rifleman);
-					UNIT_3(CORPORAL,PMCS_B_Rifleman_LAT);
+					UNIT_1(CORPORAL,PMCS_B_Medic);
+					UNIT_2(CORPORAL,PMCS_B_EOD);
 
-					UNIT_4(SERGEANT,PMCS_B_TeamLeader);
-					UNIT_5(CORPORAL,PMCS_B_Autorifleman);
-					UNIT_6(PRIVATE,PMCS_B_Rifleman);
-					UNIT_7(CORPORAL,PMCS_B_Rifleman_LAT);
+					UNIT_3(SERGEANT,PMCS_B_TeamLeader);
+					UNIT_4(CORPORAL,PMCS_B_Autorifleman);
+					UNIT_5(CORPORAL,PMCS_B_MissileSpecialist);
 				};
 
 				class pmcs_b_inf_ft {
@@ -30,19 +24,35 @@ class CfgGroups {
 					GMETA;
 
 					UNIT_0(SERGEANT,PMCS_B_TeamLeader);
-					UNIT_1(CORPORAL,PMCS_B_Autorifleman);
-					UNIT_2(PRIVATE,PMCS_B_Rifleman);
-					UNIT_3(CORPORAL,PMCS_B_Rifleman_LAT);
+					UNIT_1(PRIVATE,PMCS_B_Rifleman);
+					UNIT_2(CORPORAL,PMCS_B_Autorifleman);
 				};
 
-				class pmcs_b_inf_ft_2 {
-					name = CSTRING(Group_I_FireTeam2);
+				class pmcs_b_inf_ft_at {
+					name = CSTRING(Group_I_FireTeam_AT);
 					GMETA;
 
 					UNIT_0(SERGEANT,PMCS_B_TeamLeader);
-					UNIT_1(CORPORAL,PMCS_B_Marksman);
-					UNIT_2(PRIVATE,PMCS_B_Rifleman);
-					UNIT_3(CORPORAL,PMCS_B_Rifleman_LAT);
+					UNIT_1(CORPORAL,PMCS_B_Autorifleman);
+					UNIT_2(CORPORAL,PMCS_B_MissileSpecialist);
+				};
+
+				class pmcs_b_inf_ft_cls {
+					name = CSTRING(Group_I_FireTeam_CLS);
+					GMETA;
+
+					UNIT_0(SERGEANT,PMCS_B_TeamLeader);
+					UNIT_1(PRIVATE,PMCS_B_Rifleman);
+					UNIT_2(CORPORAL,PMCS_B_Medic);
+				};
+
+				class pmcs_b_inf_ft_eod {
+					name = CSTRING(Group_I_FireTeam_EOD);
+					GMETA;
+
+					UNIT_0(SERGEANT,PMCS_B_TeamLeader);
+					UNIT_1(PRIVATE,PMCS_B_Rifleman);
+					UNIT_2(CORPORAL,PMCS_B_EOD);
 				};
 			};
 
@@ -61,11 +71,8 @@ class CfgGroups {
 					#define pmcs_b_mch_ptrl_UNIT_2_POS {5,-12,0}
 					UNIT_XX(2,pmcs_b_mch_ptrl_UNIT_2_POS,CORPORAL,PMCS_B_Autorifleman);
 
-					#define pmcs_b_mch_ptrl_UNIT_3_POS {-5,-12,0}
-					UNIT_XX(3,pmcs_b_mch_ptrl_UNIT_3_POS,PRIVATE,PMCS_B_Rifleman);
-
 					#define pmcs_b_mch_ptrl_UNIT_4_POS {10,-17,0}
-					UNIT_XX(4,pmcs_b_mch_ptrl_UNIT_4_POS,CORPORAL,PMCS_B_Rifleman_LAT);
+					UNIT_XX(4,pmcs_b_mch_ptrl_UNIT_4_POS,CORPORAL,PMCS_B_MissileSpecialist);
 				};
 			};
 
@@ -85,7 +92,7 @@ class CfgGroups {
 					UNIT_XX(2,pmcs_b_mot_ptrl_UNIT_2_POS,CORPORAL,PMCS_B_Autorifleman);
 
 					#define pmcs_b_mot_ptrl_UNIT_3_POS {-5,-12,0}
-					UNIT_XX(3,pmcs_b_mot_ptrl_UNIT_3_POS,PRIVATE,PMCS_B_Rifleman);
+					UNIT_XX(3,pmcs_b_mot_ptrl_UNIT_3_POS,CORPORAL,PMCS_B_EOD);
 				};
 
 				class pmcs_b_mot_ptrl_h {
@@ -101,7 +108,7 @@ class CfgGroups {
 					UNIT_XX(2,pmcs_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,PMCS_B_Autorifleman);
 
 					#define pmcs_b_mot_ptrl_h_UNIT_3_POS {-5,-12,0}
-					UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,PRIVATE,PMCS_B_Rifleman);
+					UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,PMCS_B_MissileSpecialist);
 				};
 
 				class pmcs_b_mot_transport {
@@ -109,14 +116,12 @@ class CfgGroups {
 					GMETA;
 
 					UNIT_0(SERGEANT,PMCS_B_SquadLeader);
-					UNIT_1(CORPORAL,PMCS_B_Marksman);
-					UNIT_2(PRIVATE,PMCS_B_Rifleman);
-					UNIT_3(CORPORAL,PMCS_B_Rifleman_LAT);
+					UNIT_1(CORPORAL,PMCS_B_Medic);
+					UNIT_2(CORPORAL,PMCS_B_EOD);
 
-					UNIT_4(SERGEANT,PMCS_B_TeamLeader);
-					UNIT_5(CORPORAL,PMCS_B_Autorifleman);
-					UNIT_6(PRIVATE,PMCS_B_Rifleman);
-					UNIT_7(CORPORAL,PMCS_B_Rifleman_LAT);
+					UNIT_3(SERGEANT,PMCS_B_TeamLeader);
+					UNIT_4(CORPORAL,PMCS_B_Autorifleman);
+					UNIT_5(CORPORAL,PMCS_B_MissileSpecialist);
 
 					#define pmcs_b_mot_transport_UNIT_8_POS {0,-22,0}
 					UNIT_XX(8,pmcs_b_mot_transport_UNIT_8_POS,PRIVATE,PMCS_B_D_M1083A1P2_M2_fmtv);
@@ -126,19 +131,20 @@ class CfgGroups {
 			class SpecOps {
 				name = CSTRING(GroupSet_SpecOps);
 
-				class pmcs_b_so_mm {
-					name = CSTRING(Group_SP_MarksmanPair);
+				class pmcs_b_so_recon {
+					name = CSTRING(Group_SP_ReconTeam);
 					GMETA;
 
-					UNIT_0(SERGEANT,PMCS_B_Marksman);
+					UNIT_0(SERGEANT,PMCS_B_SquadLeader);
 					UNIT_1(CORPORAL,PMCS_B_Marksman);
+					UNIT_2(CORPORAL,PMCS_B_Marksman);
 				};
 			};
 
 			class Support {
 				name = CSTRING(GroupSet_Support);
 
-				class pmcs_b_su_mm {
+				class pmcs_b_su_gp {
 					name = CSTRING(Group_SU_GunnerPair);
 					GMETA;
 

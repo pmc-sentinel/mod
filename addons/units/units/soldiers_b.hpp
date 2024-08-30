@@ -43,8 +43,8 @@ class PMCS_B_SquadLeader : PMCS_B_Soldier_base {
 
 	backpack = "tfw_ilbe_whip_mc";
 
-	weapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
-	respawnWeapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
 
 	Items[] = { "FirstAidKit" };
 	RespawnItems[] = { "FirstAidKit" };
@@ -70,8 +70,8 @@ class PMCS_B_Rifleman : PMCS_B_Soldier_base {
 
 	backpack = "VSM_Multicam_Backpack_Compact";
 
-	weapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
-	respawnWeapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
 
 	Items[] = { "FirstAidKit" };
 	RespawnItems[] = { "FirstAidKit" };
@@ -80,8 +80,13 @@ class PMCS_B_Rifleman : PMCS_B_Soldier_base {
 	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
 
-class PMCS_B_Rifleman_LAT : PMCS_B_Soldier_base {
-	displayName = CSTRING(Soldier_Rifleman_LAT);
+class PMCS_B_EOD : PMCS_B_Rifleman {
+	displayName        = CSTRING(Soldier_EOD);
+	canDeactivateMines = 1;
+};
+
+class PMCS_B_MissileSpecialist : PMCS_B_Soldier_base {
+	displayName = CSTRING(Soldier_MissileSpecialist);
 
 	scope 	     = 2; // available in 3den
 	scopeCurator = 2; // available in Zeus
@@ -91,16 +96,16 @@ class PMCS_B_Rifleman_LAT : PMCS_B_Soldier_base {
 	engineer             = 0;
 	attendant            = 0; // Has Medic trait
 
-	backpack = "VSM_Multicam_Backpack_Compact";
+	backpack = "VSM_Multicam_carryall";
 
-	weapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
-	respawnWeapons[] = { "PMCS_MCX_Virtus_14_f_s4", "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+	weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
 
 	Items[] = { "FirstAidKit" };
 	RespawnItems[] = { "FirstAidKit" };
 
-	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
-	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), MAG_4(rhs_mag_maaws_hedp), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), MAG_4(rhs_mag_maaws_hedp), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
 
 class PMCS_B_Autorifleman : PMCS_B_Soldier_base {
@@ -139,12 +144,61 @@ class PMCS_B_Marksman : PMCS_B_Soldier_base {
 
 	backpack = "VSM_Multicam_Backpack_Compact";
 
-	weapons[] = { "PMCS_MCX_SpearLT_762_16_s1", "rhsusf_weap_glock17g4", "Throw", "Put" };
-	respawnWeapons[] = { "PMCS_MCX_SpearLT_762_16_s1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	weapons[] = { "PMCS_M110k5_ACS", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_M110k5_ACS", "rhsusf_weap_glock17g4", "Throw", "Put" };
 
 	Items[] = { "FirstAidKit" };
 	RespawnItems[] = { "FirstAidKit" };
 
-	magazines[] = { MAG_5(MCX_28Rnd_762R_AP_mag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
-	respawnMagazines[] = { MAG_5(MCX_28Rnd_762R_AP_mag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	magazines[] = { MAG_5(Tier1_20Rnd_762x51_M993_SR25_Mag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	respawnMagazines[] = { MAG_5(Tier1_20Rnd_762x51_M993_SR25_Mag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+};
+
+class PMCS_B_PilotHelicopter : PMCS_B_Soldier_base {
+	displayName = CSTRING(Soldier_PilotHelicopter);
+
+	scope 	     = 2; // available in 3den
+	scopeCurator = 2; // available in Zeus
+	scopeArsenal = 2; // available in arsenal
+
+	canDeactivateMines   = 0;
+	engineer             = 0;
+	attendant            = 0; // Has Medic trait
+
+	backpack = "tfw_ilbe_whip_mc";
+
+	linkedItems[] = { "VSM_LBT6094_operator_multicam", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ACE_Vector" };
+	respawnLinkedItems[] = { "VSM_LBT6094_operator_multicam", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_ancprc152", "ACE_Vector" };
+
+	weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+
+	Items[] = { "FirstAidKit" };
+	RespawnItems[] = { "FirstAidKit" };
+
+	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+};
+
+class PMCS_B_Medic : PMCS_B_Soldier_base {
+	displayName = CSTRING(Soldier_Medic);
+
+	scope 	     = 2; // available in 3den
+	scopeCurator = 2; // available in Zeus
+	scopeArsenal = 2; // available in arsenal
+
+	canDeactivateMines   = 0;
+	engineer             = 0;
+	attendant            = 1; // Has Medic trait
+
+	backpack = "VSM_Multicam_Backpack_Compact";
+
+	weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
+	respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
+
+	Items[] = { "FirstAidKit" };
+	RespawnItems[] = { "FirstAidKit" };
+
+	magazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+	respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };

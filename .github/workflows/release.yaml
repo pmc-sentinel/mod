@@ -1,0 +1,39 @@
+---
+name: Build
+
+on:
+  push:
+    tags: ['v*.*.*']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1  
+
+      - name: Initialize submodules
+        run: git submodule init
+
+      - name: Run HEMTT build
+        run: hemtt release --no-archive
+
+      - name: Upload Release
+        uses: actions/upload-artifact@v4
+        with:
+          name: pmcs-${{ github.ref_name }}
+          path: .hemttout/release
+
+      - uses: arma-actions/workshop-upload@v1
+        with:
+          appId: '107410'
+          itemId: '3320927001'
+          contentPath: '.hemttout/release'
+          changelog: 'Release ${{ github.ref_name }}'
+        env:
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}

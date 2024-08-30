@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ACE">
+<Project name="PMC Sentinel">
     <Package name="Units">
         <!-- Unit Groups -->
         <Key ID="STR_PMCS_Units_UnitGroup_Men">
@@ -19,14 +19,23 @@
         <Key ID="STR_PMCS_Units_Soldier_Rifleman">
             <English>Rifleman</English>
         </Key>
-        <Key ID="STR_PMCS_Units_Soldier_Rifleman_LAT">
-            <English>Rifleman (Light AT)</English>
+        <Key ID="STR_PMCS_Units_Soldier_MissileSpecialist">
+            <English>Missile Specialist</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_EOD">
+            <English>Explosive Specialist</English>
         </Key>
         <Key ID="STR_PMCS_Units_Soldier_Autorifleman">
             <English>Autorifleman</English>
         </Key>
         <Key ID="STR_PMCS_Units_Soldier_Marksman">
             <English>Marksman</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_Medic">
+            <English>Medic</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_PilotHelicopter">
+            <English>Helicopter Pilot</English>
         </Key>
     </Package>
 </Project>

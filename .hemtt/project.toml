@@ -12,11 +12,10 @@ include = [
     "meta.cpp",
 ]
 
-[hemtt.launch]
+[hemtt.launch.default]
 workshop = [
     "450814997",  # CBA_A3
     "823636749",  # VSM All-In-One Collection
-    "2461160363", # MCX Virtus
     "463939057",  # ace
     "1661066023", # RKSL Studios - Attachments v3.02
     "843577117",  # RHSUSAF
@@ -24,13 +23,13 @@ workshop = [
     "894678801",  # Task Force Arrowhead Radio (BETA!!!)
     "2941986336", # Hatchet Framework - Stable Version
     "1745501605", # Hatchet H-60 pack - Stable Version
+    "2268351256", # Tier One Weapons
 ]
 
 [hemtt.launch.alive]
 workshop = [
     "450814997",  # CBA_A3
     "823636749",  # VSM All-In-One Collection
-    "2461160363", # MCX Virtus
     "463939057",  # ace
     "1661066023", # RKSL Studios - Attachments v3.02
     "843577117",  # RHSUSAF
@@ -38,6 +37,7 @@ workshop = [
     "894678801",  # Task Force Arrowhead Radio (BETA!!!)
     "2941986336", # Hatchet Framework - Stable Version
     "1745501605", # Hatchet H-60 pack - Stable Version
+    "2268351256", # Tier One Weapons
 
     "620260972", # ALiVE
 ]
