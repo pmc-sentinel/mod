@@ -13,8 +13,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: Setup HEMTT
-        uses: arma-actions/hemtt@v1  
       - name: Validate SQF
         run: python3 tools/sqf_validator.py
       - name: Validate Stringtables
