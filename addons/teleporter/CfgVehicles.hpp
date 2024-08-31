@@ -19,16 +19,28 @@ class CfgVehicles {
         curatorInfoType    = "RscDisplayAttributeAudioModule";
         class Attributes : AttributesBase {
             class Target : Edit {
-                property     = "pmcs_mod_teleport_target";
+                property     = QUOTE(GVAR(moduleTeleport)_target);
                 displayName  = CSTRING(TeleportTarget);
-                description  = CSTRING(TeleportTargetTooltip);
+                tooltip      = CSTRING(TeleportTargetTooltip);
                 typeName     = "STRING";
                 defaultValue = """""";
             };
+
+            class Display : Edit {
+                property     = QUOTE(GVAR(moduleTeleport)_display);
+                displayName  = CSTRING(TeleportDisplay);
+                tooltip      = CSTRING(TeleportDisplayTooltip);
+                typeName     = "STRING";
+                defaultValue = """Teleport""";
+            };
+
             class ModuleDescription : ModuleDescription {};
         };
         class ModuleDescription : ModuleDescription {
-            description = CSTRING(Teleport_Description);
+            description[] = {
+                CSTRING(Teleport_Description1),
+                CSTRING(Teleport_Description2),
+            };
         };
     };
 };

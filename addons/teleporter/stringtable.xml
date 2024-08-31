@@ -4,17 +4,23 @@
         <Key ID="STR_PMCS_Teleporter_Teleport">
             <English>ACE Teleport</English>
         </Key>
-        <Key ID="STR_PMCS_Teleporter_Teleport_Description">
-            <English>ACE Teleport sets up an ACE interaction to teleport the player to an invisible helipad stored in a variable.</English>
+        <Key ID="STR_PMCS_Teleporter_Teleport_Description1">
+            <English>ACE Teleport sets up an ACE interaction to teleport the player to the position of an object stored in a variable.</English>
         </Key>
-        <Key ID="STR_PMCS_Teleporter_Teleport_DescriptionShort">
-            <English>ACE Teleport sets up an ACE interaction to teleport the player.</English>
+        <Key ID="STR_PMCS_Teleporter_Teleport_Description2">
+            <English>To configure it, sync an object that will become the trigger (have the ACE interaction added to it), and then create an invisible helipad where you want the player to teleport to. Give it a variable name under 'Init', and store that in this module's 'Target' field.</English>
         </Key>
         <Key ID="STR_PMCS_Teleporter_TeleportTarget">
-            <English>Target Name</English>
+            <English>Target</English>
         </Key>
         <Key ID="STR_PMCS_Teleporter_TeleportTargetTooltip">
             <English>The variable name of the invisible helipad to teleport to.</English>
+        </Key>
+        <Key ID="STR_PMCS_Teleporter_TeleportDisplay">
+            <English>Menu text</English>
+        </Key>
+        <Key ID="STR_PMCS_Teleporter_TeleportDisplayTooltip">
+            <English>The text to display in the ACE interact menu.</English>
         </Key>
     </Package>
 </Project>

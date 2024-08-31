@@ -19,13 +19,14 @@
 params ["_logic"];
 
 private _destination = _logic getVariable ["Target", ""];
+private _display = _logic getVariable ["Display", "Teleport"];
 
 private _synced = (synchronizedObjects _logic);
 private _trigger = _synced select 0;
 
 private _action = [
     "PMCS_Teleporter_TeleportTo",
-    "Teleport",
+    _display,
     "",
     {
         params ["_target", "_player", "_params"];
