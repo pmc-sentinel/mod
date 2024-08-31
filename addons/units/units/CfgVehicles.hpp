@@ -1,4 +1,4 @@
 class CfgVehicles {
-	#include "soldiers_b.hpp"
-	#include "vehicles_b.hpp"
+    #include "soldiers_b.hpp"
+    #include "vehicles_b.hpp"
 };

@@ -1,15 +1,15 @@
 class CfgVehicles {
-	class Logic;
-    class Module_F: Logic {
-		class AttributesBase {
-			class Default;
-			class Edit;
-			class ModuleDescription;
-		};
+    class Logic;
+    class Module_F : Logic {
+        class AttributesBase {
+            class Default;
+            class Edit;
+            class ModuleDescription;
+        };
         class ModuleDescription;
     };
 
-	class GVAR(moduleTeleport) : Module_F {
+    class GVAR(moduleTeleport) : Module_F {
         scope              = 2;
         displayName        = CSTRING(Teleport);
         category           = "PMCS";
@@ -21,14 +21,14 @@ class CfgVehicles {
             class Target : Edit {
                 property     = "pmcs_mod_teleport_target";
                 displayName  = CSTRING(TeleportTarget);
-				description  = CSTRING(TeleportTargetTooltip);
+                description  = CSTRING(TeleportTargetTooltip);
                 typeName     = "STRING";
                 defaultValue = """""";
             };
             class ModuleDescription : ModuleDescription {};
         };
         class ModuleDescription : ModuleDescription {
-			description = CSTRING(Teleport_Description);
-		};
+            description = CSTRING(Teleport_Description);
+        };
     };
 };

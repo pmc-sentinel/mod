@@ -1,3 +1,3 @@
 class CfgWeapons {
-	#include "weapon_presets.hpp"
+    #include "weapon_presets.hpp"
 };

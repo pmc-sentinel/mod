@@ -1,18 +1,18 @@
 #define MACRO_ADDUNITGROUP(SIDE,NAME,PRIORITY) class PMCS_##SIDE##_##NAME { \
-	displayName = CSTRING(UnitGroup_##NAME); \
-	priority = PRIORITY; \
+    displayName = CSTRING(UnitGroup_##NAME); \
+    priority = PRIORITY; \
 }
 
 #define MACRO_ADDUNITSUBCAT(SIDE,NAME) class PMCS_##SIDE##_##NAME { \
-	displayName = CSTRING(UnitGroup_##NAME); \
+    displayName = CSTRING(UnitGroup_##NAME); \
 }
 
 #define UNITGROUP(SIDE,NAME) QUOTE(PMCS_##SIDE##_##NAME)
 #define UCOPY(IDX) class PMCS_B_W_##IDX : PMCS_B_D_##IDX { faction = "PMCS_B_W"; };
 
 #define WITEM(NAME,SLOT,ITEM) class LinkedItems##NAME { \
-	item = QUOTE(ITEM); \
-	slot = QUOTE(SLOT); \
+    item = QUOTE(ITEM); \
+    slot = QUOTE(SLOT); \
 }
 
 #define WOPTIC(ITEM) WITEM(Optic,CowsSlot,##ITEM##)
