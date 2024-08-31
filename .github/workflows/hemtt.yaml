@@ -17,6 +17,8 @@ jobs:
         run: python3 tools/sqf_validator.py
       - name: Validate Stringtables
         run: python3 tools/stringtable_validator.py
+      - name: Check String usage
+        run: python3 tools/string_checker.py
       - name: Validate Code Style
         run: python3 tools/config_style_checker.py
       - uses: arma-actions/bom-check@v1
