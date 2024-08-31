@@ -16,7 +16,7 @@ jobs:
       - name: Setup HEMTT
         uses: arma-actions/hemtt@v1  
       - name: Validate SQF
-        run: python3 tools/sqlf_validator.py
+        run: python3 tools/sqf_validator.py
       - name: Validate Stringtables
         run: python3 tools/stringtable_validator.py
       - name: HEMTT Check
