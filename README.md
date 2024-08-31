@@ -1,18 +1,18 @@
 <p align="center">
-    <img src="https://github.com/hbjydev/pmc-sentinel-mod/raw/main/assets/logo/PMC_Sentinel.png" width="512">
+    <img src="https://github.com/pmc-sentinel/mod/raw/main/assets/logo/PMC_Sentinel.png" width="512">
 </p>
 
 <p align="center">
-    <a href="https://github.com/hbjydev/pmc-sentinel-mod/releases">
-        <img src="https://img.shields.io/github/release/hbjydev/pmc-sentinel-mod.svg?style=flat-square&label=Version" alt="PMC Sentinel Mod Version">
+    <a href="https://github.com/pmc-sentinel/mod/releases">
+        <img src="https://img.shields.io/github/release/pmc-sentinel/mod.svg?style=flat-square&label=Version" alt="PMC Sentinel Mod Version">
     </a>
     <a href="https://github.com/zen-mod/ZEN/issues">
-        <img src="https://img.shields.io/github/issues-raw/hbjydev/pmc-sentinel-mod.svg?style=flat-square&label=Issues" alt="PMC Sentinel Mod Issues">
+        <img src="https://img.shields.io/github/issues-raw/pmc-sentinel/mod.svg?style=flat-square&label=Issues" alt="PMC Sentinel Mod Issues">
     </a>
     <a href="https://discord.gg/Ctfu2DTb7f">
         <img src="https://img.shields.io/badge/Join-Discord?style=flat-square&logo=discord&logoColor=7683D5&label=Discord&color=7683D5" alt="PMC Sentinel Discord">
     </a>
-    <a href="https://github.com/zen-mod/ZEN/blob/master/LICENSE">
+    <a href="https://github.com/pmc-sentinel/mod/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-APL2-red.svg?style=flat-square" alt="PMC Sentinel Mod License">
     </a>
 </p>
@@ -39,7 +39,7 @@ To contribute something to the mod, simply fork this repository and submit your 
 
 ### Submitting Issues and Feature Requests
 
-Please use our [Issue Tracker](https://github.com/hbjydev/pmc-sentinel-mod/issues) to report a bug, propose a feature, or suggest changes to the existing ones.
+Please use our [Issue Tracker](https://github.com/pmc-sentinel/mod/issues) to report a bug, propose a feature, or suggest changes to the existing ones.
 
 ## License
 
