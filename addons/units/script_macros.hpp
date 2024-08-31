@@ -1,10 +1,10 @@
-#define MACRO_ADDUNITGROUP(SIDE,NAME,PRIORITY) class PMCS_##SIDE##_##NAME { \
-    displayName = CSTRING(UnitGroup_##NAME); \
+#define MACRO_ADDUNITGROUP(SIDE,IDX,NAME,PRIORITY) class PMCS_##SIDE##_##IDX { \
+    displayName = NAME; \
     priority = PRIORITY; \
 }
 
-#define MACRO_ADDUNITSUBCAT(SIDE,NAME) class PMCS_##SIDE##_##NAME { \
-    displayName = CSTRING(UnitGroup_##NAME); \
+#define MACRO_ADDUNITSUBCAT(SIDE,IDX,NAME) class PMCS_##SIDE##_##IDX { \
+    displayName = NAME; \
 }
 
 #define UNITGROUP(SIDE,NAME) QUOTE(PMCS_##SIDE##_##NAME)

@@ -37,9 +37,6 @@
         <Key ID="STR_PMCS_Factions_Group_I_FireTeam_EOD">
             <English>Fire Team (EOD)</English>
         </Key>
-        <Key ID="STR_PMCS_Factions_Group_ME_Patrol">
-            <English>Mechanized Patrol</English>
-        </Key>
         <Key ID="STR_PMCS_Factions_Group_MO_Patrol">
             <English>Motorized Patrol</English>
         </Key>

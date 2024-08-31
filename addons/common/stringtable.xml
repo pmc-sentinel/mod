@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="PMCS">
     <Package name="Common">
-        <Key ID="STR_PMCS_Common_DisplayName">
-            <English>Common</English>
-        </Key>
         <Key ID="STR_PMCS_Common_PMCSTeam">
             <English>PMC Sentinel Team</English>
         </Key>
