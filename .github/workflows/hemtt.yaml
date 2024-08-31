@@ -21,8 +21,8 @@ jobs:
         run: python3 tools/stringtable_validator.py
       - name: Validate Code Style
         run: python3 tools/config_style_checker.py
-      - name: HEMTT Check
-        run: hemtt check
+      - uses: arma-actions/bom-check@v1
+        name: Check for BOM
 
   build:
     runs-on: ubuntu-latest
