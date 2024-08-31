@@ -25,6 +25,7 @@ workshop = [
     "1745501605", # Hatchet H-60 pack - Stable Version
     "2268351256", # Tier One Weapons
     "893349825",  # 3CB BAF Vehicles
+    "1351428303", # AH-64D Official Project
 ]
 
 [hemtt.launch.alive]
