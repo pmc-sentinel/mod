@@ -1,4 +1,6 @@
+#define DEBUG_SYNCHRONOUS
 #include "\x\cba\addons\main\script_macros_common.hpp"
+#include "\z\ace\addons\main\script_debug.hpp"
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP

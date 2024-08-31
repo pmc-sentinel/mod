@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="PMCS">
+    <Package name="Teleporter">
+        <Key ID="STR_PMCS_Teleporter_Teleport">
+            <English>ACE Teleport</English>
+        </Key>
+        <Key ID="STR_PMCS_Teleporter_Teleport_Description">
+            <English>ACE Teleport sets up an ACE interaction to teleport the player to an invisible helipad stored in a variable.</English>
+        </Key>
+        <Key ID="STR_PMCS_Teleporter_Teleport_DescriptionShort">
+            <English>ACE Teleport sets up an ACE interaction to teleport the player.</English>
+        </Key>
+        <Key ID="STR_PMCS_Teleporter_TeleportTarget">
+            <English>Target Name</English>
+        </Key>
+        <Key ID="STR_PMCS_Teleporter_TeleportTargetTooltip">
+            <English>The variable name of the invisible helipad to teleport to.</English>
+        </Key>
+    </Package>
+</Project>
