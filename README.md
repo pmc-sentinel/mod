@@ -6,7 +6,7 @@
     <a href="https://github.com/pmc-sentinel/mod/releases">
         <img src="https://img.shields.io/github/release/pmc-sentinel/mod.svg?style=flat-square&label=Version" alt="PMC Sentinel Mod Version">
     </a>
-    <a href="https://github.com/zen-mod/ZEN/issues">
+    <a href="https://github.com/pmc-sentinel/mod/issues">
         <img src="https://img.shields.io/github/issues-raw/pmc-sentinel/mod.svg?style=flat-square&label=Issues" alt="PMC Sentinel Mod Issues">
     </a>
     <a href="https://discord.gg/Ctfu2DTb7f">
