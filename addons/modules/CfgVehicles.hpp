@@ -9,14 +9,20 @@ class CfgVehicles {
         class ModuleDescription;
     };
 
-    class GVAR(moduleResupply) : Module_F {
-        scope              = 2;
-        displayName        = CSTRING(Resupply);
-        category           = "PMCS";
-        function           = QFUNC(moduleResupply);
-        isGlobal           = 1;
-        isTriggerActivated = 0;
-        curatorInfoType    = "RscDisplayAttributeAudioModule";
+    class GVAR(moduleBase) : Module_F {
+        author = ECSTRING(main,Author);
+        category = "NO_CATEGORY";
+        function = "";
+        scope = 1;
+        scopeCurator = 2;
+        curatorInfoType = "RscDisplayAttributeModuleNuke";
+    };
+
+    class GVAR(moduleResupply) : GVAR(moduleBase) {
+        displayName = CSTRING(Resupply);
+        category = QGVAR(Utilities);
+        function = QFUNC(moduleResupply);
+
         class Attributes : AttributesBase {
             class ModuleDescription : ModuleDescription {};
         };
@@ -28,14 +34,12 @@ class CfgVehicles {
     };
 
     class GVAR(moduleTeleport) : Module_F {
-        scope              = 2;
-        scopeCurator       = 2;
-        displayName        = CSTRING(Teleport);
-        category           = "PMCS";
-        function           = QFUNC(moduleTeleport);
-        isGlobal           = 1;
-        isTriggerActivated = 0;
-        curatorInfoType    = "RscDisplayAttributeAudioModule";
+        displayName = CSTRING(Teleport);
+        category = QGVAR(Utilities);
+        function = QFUNC(moduleTeleport);
+        scope = 2;
+        scopeCurator = 1;
+
         class Attributes : AttributesBase {
             class Target : Edit {
                 property     = QUOTE(GVAR(moduleTeleport)_target);
@@ -55,6 +59,7 @@ class CfgVehicles {
 
             class ModuleDescription : ModuleDescription {};
         };
+
         class ModuleDescription : ModuleDescription {
             description[] = {
                 CSTRING(Teleport_Description1),

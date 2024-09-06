@@ -1,6 +1,6 @@
 class CfgFactionClasses {
-    class PMCS {
-        displayName = "PMC Sentinel Modules";
+    class GVAR(Utilities) {
+        displayName = CSTRING(Cat_Utilities);
         priority = 2;
         side = 7;
     };

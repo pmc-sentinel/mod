@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="PMCS">
     <Package name="Modules">
+        <Key ID="STR_PMCS_Modules_Cat_Utilities">
+            <English>PMCS Utilities</English>
+        </Key>
         <Key ID="STR_PMCS_Modules_Resupply">
             <English>Spawn resupply crate</English>
         </Key>
