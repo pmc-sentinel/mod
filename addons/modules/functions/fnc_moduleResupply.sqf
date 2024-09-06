@@ -17,46 +17,54 @@
 
 params ["_logic"];
 
-private _primaryMagCount = 10;
-private _secondaryMagCount = 15;
-private _handgunMagCount = 10;
-private _binocularMagCount = 2;
+private _playerCount = count call BIS_fnc_listPlayers;
+
+private _primaryMagCount = GVAR(Resupply_PrimaryMagCount);
+private _secondaryMagCount = GVAR(Resupply_SecondaryMagCount);
+private _handgunMagCount = GVAR(Resupply_HandgunMagCount);
+private _binocularMagCount = GVAR(Resupply_BinocularMagCount);
+private _handGrenadeCount = GVAR(Resupply_GrenadeCount);
+private _smokeShellCount = GVAR(Resupply_SmokeShellCount);
+private _medFluidCount = GVAR(Resupply_MedFluidCount);
+private _medItemCount = GVAR(Resupply_MedItemCount);
+private _medBandageCount = GVAR(Resupply_MedBandageCount);
+private _medMedicineCount = GVAR(Resupply_MedMedicineCount);
 
 private _resupplyBox = "B_supplyCrate_F" createVehicle getPosATL _logic;
 private _items = createHashMapFromArray [
-  ["ACE_fieldDressing", 75],
-  ["ACE_elasticBandage", 75],
-  ["ACE_packingBandage", 75],
-  ["ACE_quikClot", 75],
-  ["kat_bloodIV_O_N", 20],
-  ["kat_bloodIV_O_N_500", 20],
-  ["kat_bloodIV_O_N_250", 20],
-  ["kat_chestSeal", 20],
-  ["kat_EACA", 10],
-  ["ACE_adenosine", 40],
-  ["ACE_epinephrine", 40],
-  ["ACE_morphine", 40],
-  ["kat_IO_FAST", 60],
-  ["kat_guedel", 50],
-  ["kat_larynx", 40],
-  ["ACE_plasmaIV", 20],
-  ["ACE_plasmaIV_500", 20],
-  ["ACE_plasmaIV_250", 20],
-  ["ACE_salineIV", 20],
-  ["ACE_salineIV_500", 20],
-  ["ACE_salineIV_250", 20],
-  ["ACE_splint", 50],
-  ["ACE_tourniquet", 50],
+  ["ACE_fieldDressing", _medBandageCount * _playerCount],
+  ["ACE_elasticBandage", _medBandageCount * _playerCount],
+  ["ACE_packingBandage", _medBandageCount * _playerCount],
+  ["ACE_quikClot", _medBandageCount * _playerCount],
+  ["kat_bloodIV_O_N", _medFluidCount * _playerCount],
+  ["kat_bloodIV_O_N_500", _medFluidCount * _playerCount],
+  ["kat_bloodIV_O_N_250", _medFluidCount * _playerCount],
+  ["kat_chestSeal", _medItemCount * _playerCount],
+  ["kat_EACA", _medMedicineCount * _playerCount],
+  ["ACE_adenosine", _medMedicineCount * _playerCount],
+  ["ACE_epinephrine", _medMedicineCount * _playerCount],
+  ["ACE_morphine", _medMedicineCount * _playerCount],
+  ["kat_IO_FAST", _medItemCount * _playerCount],
+  ["kat_guedel", _medItemCount * _playerCount],
+  ["kat_larynx", _medItemCount * _playerCount],
+  ["ACE_plasmaIV", _medFluidCount * _playerCount],
+  ["ACE_plasmaIV_500", _medFluidCount * _playerCount],
+  ["ACE_plasmaIV_250", _medFluidCount * _playerCount],
+  ["ACE_salineIV", _medFluidCount * _playerCount],
+  ["ACE_salineIV_500", _medFluidCount * _playerCount],
+  ["ACE_salineIV_250", _medFluidCount * _playerCount],
+  ["ACE_splint", _medItemCount * _playerCount],
+  ["ACE_tourniquet", _medItemCount * _playerCount],
 
   // Grenades
-  ["HandGrenade", 40],
-  ["SmokeShell", 40],
-  ["SmokeShellBlue", 40],
-  ["SmokeShellGreen", 40],
-  ["SmokeShellOrange", 40],
-  ["SmokeShellRed", 40],
-  ["SmokeShellPurple", 40],
-  ["SmokeShellYellow", 40]
+  ["HandGrenade", _handGrenadeCount * _playerCount],
+  ["SmokeShell", _smokeShellCount * _playerCount],
+  ["SmokeShellBlue", _smokeShellCount * _playerCount],
+  ["SmokeShellGreen", _smokeShellCount * _playerCount],
+  ["SmokeShellOrange", _smokeShellCount * _playerCount],
+  ["SmokeShellRed", _smokeShellCount * _playerCount],
+  ["SmokeShellPurple", _smokeShellCount * _playerCount],
+  ["SmokeShellYellow", _smokeShellCount * _playerCount]
 ];
 
 {
@@ -89,6 +97,7 @@ private _items = createHashMapFromArray [
       _items set [_x, _binocularMagCount];
     };
   } forEach _bms;
+  INFO_5("Got %1, %2, %3 and %4 for player %5",_pm,_sm,_hm,_bms,_x);
 } forEach call BIS_fnc_listPlayers;
 
 clearMagazineCargo _resupplyBox;
@@ -97,6 +106,7 @@ clearItemCargo _resupplyBox;
 clearBackpackCargo _resupplyBox;
 
 {
+  INFO_2("Adding %1 (x%2) to crate...",_x,_y);
   if (typeName _x == "ARRAY") then {
     _amount = _y;
     {

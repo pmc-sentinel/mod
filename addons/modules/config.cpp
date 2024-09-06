@@ -9,7 +9,11 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_interact_menu"};
+        requiredAddons[] = {
+            "ace_interact_menu",
+            "kat_pharma",
+            "ace_medical"
+        };
         author = ECSTRING(common,PMCSTeam);
         authors[] = {"hbjydev"};
         url = ECSTRING(main,url);
