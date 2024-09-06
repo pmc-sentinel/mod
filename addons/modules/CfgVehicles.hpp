@@ -15,7 +15,7 @@ class CfgVehicles {
         function = "";
         scope = 1;
         scopeCurator = 2;
-        curatorInfoType = "RscDisplayAttributeModuleNuke";
+        curatorInfoType = "";
     };
 
     class GVAR(moduleResupply) : GVAR(moduleBase) {

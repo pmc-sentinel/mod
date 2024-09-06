@@ -22,7 +22,7 @@ private _secondaryMagCount = 15;
 private _handgunMagCount = 10;
 private _binocularMagCount = 2;
 
-private _resupplyBox = "B_supplyCrate_F" createVehicle position _logic;
+private _resupplyBox = "B_supplyCrate_F" createVehicle getPosATL _logic;
 private _items = createHashMapFromArray [
   ["ACE_fieldDressing", 75],
   ["ACE_elasticBandage", 75],
@@ -106,3 +106,5 @@ clearItemCargo _resupplyBox;
     _resupplyBox addItemCargoGlobal [_x, _y]; // _x = magazine class name, _y = number of magazines to add
   }
 } forEach _items;
+
+deleteVehicle _logic;
