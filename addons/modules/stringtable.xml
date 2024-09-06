@@ -7,7 +7,6 @@
         <Key ID="STR_PMCS_Modules_Resupply_Description1">
             <English>Get all ammunition for everyone's guns and generate a crate with 10 of each of them.</English>
         </Key>
-
         <Key ID="STR_PMCS_Modules_Teleport">
             <English>ACE Teleport</English>
         </Key>

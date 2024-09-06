@@ -18,7 +18,7 @@ class CfgVehicles {
         isTriggerActivated = 0;
         curatorInfoType    = "RscDisplayAttributeAudioModule";
         class Attributes : AttributesBase {
-			class ModuleDescription : ModuleDescription {};
+            class ModuleDescription : ModuleDescription {};
         };
         class ModuleDescription : ModuleDescription {
             description[] = {
