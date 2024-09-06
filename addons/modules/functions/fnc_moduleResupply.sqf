@@ -61,7 +61,6 @@ private _items = createHashMapFromArray [
 
 {
   private _pm = primaryWeaponMagazine _x;
-  INFO_1("pm: %1",_pm);
   if (_pm in _items) then {
     _items set [_pm, (_items select _pm) + _primaryMagCount];
   } else {
@@ -69,7 +68,6 @@ private _items = createHashMapFromArray [
   };
 
   private _sm = secondaryWeaponMagazine _x;
-  INFO_1("sm: %1",_sm);
   if (_sm in _items) then {
     _items set [_sm, (_items get _sm) + _secondaryMagCount];
   } else {
@@ -77,7 +75,6 @@ private _items = createHashMapFromArray [
   };
 
   private _hm = handgunMagazine _x;
-  INFO_1("hm: %1",_hm);
   if (_hm in _items) then {
     _items set [_hm, (_items get _sm) + _handgunMagCount];
   } else {
@@ -85,7 +82,6 @@ private _items = createHashMapFromArray [
   };
 
   private _bms = binocularMagazine _x;
-  INFO_1("bm: %1",_bms);
   {
     if (_x in _items) then {
       _items set [_x, (_items get _x) + _binocularMagCount];
