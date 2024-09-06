@@ -62,6 +62,7 @@ private _items = createHashMapFromArray [
 
 {
   private _pm = primaryWeaponMagazine _x;
+  INFO_1("pm: %1",_pm);
   if (_pm in _items) then {
     _items set [_pm, (_items select _pm) + _primaryMagCount];
   } else {
@@ -69,23 +70,26 @@ private _items = createHashMapFromArray [
   };
 
   private _sm = secondaryWeaponMagazine _x;
+  INFO_1("sm: %1",_sm);
   if (_sm in _items) then {
-    _items set [_sm, (_items select _sm) + _secondaryMagCount];
+    _items set [_sm, (_items get _sm) + _secondaryMagCount];
   } else {
     _items set [_sm, _secondaryMagCount];
   };
 
   private _hm = handgunMagazine _x;
+  INFO_1("hm: %1",_hm);
   if (_hm in _items) then {
-    _items set [_hm, (_items select _sm) + _handgunMagCount];
+    _items set [_hm, (_items get _sm) + _handgunMagCount];
   } else {
     _items set [_hm, _handgunMagCount];
   };
 
   private _bms = binocularMagazine _x;
+  INFO_1("bm: %1",_bms);
   {
     if (_x in _items) then {
-      _items set [_x, (_items select _x) + _binocularMagCount];
+      _items set [_x, (_items get _x) + _binocularMagCount];
     } else {
       _items set [_x, _binocularMagCount];
     };
@@ -95,6 +99,7 @@ private _items = createHashMapFromArray [
 clearMagazineCargo _resupplyBox;
 clearWeaponCargo _resupplyBox;
 clearItemCargo _resupplyBox;
+clearBackpackCargo _resupplyBox;
 
 {
   if (typeName _x == "ARRAY") then {
