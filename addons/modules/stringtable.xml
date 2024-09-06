@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="PMCS">
-    <Package name="Teleporter">
-        <Key ID="STR_PMCS_Teleporter_Teleport">
+    <Package name="Modules">
+        <Key ID="STR_PMCS_Modules_Resupply">
+            <English>Spawn resupply crate</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Resupply_Description1">
+            <English>Get all ammunition for everyone's guns and generate a crate with 10 of each of them.</English>
+        </Key>
+
+        <Key ID="STR_PMCS_Modules_Teleport">
             <English>ACE Teleport</English>
         </Key>
-        <Key ID="STR_PMCS_Teleporter_Teleport_Description1">
+        <Key ID="STR_PMCS_Modules_Teleport_Description1">
             <English>ACE Teleport sets up an ACE interaction to teleport the player to the position of an object stored in a variable.</English>
         </Key>
-        <Key ID="STR_PMCS_Teleporter_Teleport_Description2">
+        <Key ID="STR_PMCS_Modules_Teleport_Description2">
             <English>To configure it, sync an object that will become the trigger (have the ACE interaction added to it), and then create an invisible helipad where you want the player to teleport to. Give it a variable name under 'Init', and store that in this module's 'Target' field.</English>
         </Key>
-        <Key ID="STR_PMCS_Teleporter_TeleportTarget">
+        <Key ID="STR_PMCS_Modules_TeleportTarget">
             <English>Target</English>
         </Key>
-        <Key ID="STR_PMCS_Teleporter_TeleportTargetTooltip">
+        <Key ID="STR_PMCS_Modules_TeleportTargetTooltip">
             <English>The variable name of the invisible helipad to teleport to.</English>
         </Key>
-        <Key ID="STR_PMCS_Teleporter_TeleportDisplay">
+        <Key ID="STR_PMCS_Modules_TeleportDisplay">
             <English>Menu text</English>
         </Key>
-        <Key ID="STR_PMCS_Teleporter_TeleportDisplayTooltip">
+        <Key ID="STR_PMCS_Modules_TeleportDisplayTooltip">
             <English>The text to display in the ACE interact menu.</English>
         </Key>
     </Package>

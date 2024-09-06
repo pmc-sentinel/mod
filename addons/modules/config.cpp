@@ -1,19 +1,20 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON {
-        NAME = COMPONENT_NAME;
-        units[] = {
-            QGVAR(moduleTeleport)
-        };
-        weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {};
+	class ADDON {
+        name = COMPONENT_NAME;
+		units[] = {
+			QGVAR(moduleResupply),
+			QGVAR(moduleTeleport)
+		};
+		weapons[] = {};
+		requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = { "pmcs_common" };
         author = ECSTRING(common,PMCSTeam);
         authors[] = {"hbjydev"};
         url = ECSTRING(main,url);
         VERSION_CONFIG;
-    };
+	};
 };
 
 #include "CfgEventHandlers.hpp"

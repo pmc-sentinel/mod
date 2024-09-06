@@ -1,5 +1,5 @@
 #define COMPONENT factions
-#define COMPONENT_BEAUTIFIED factions
+#define COMPONENT_BEAUTIFIED Factions
 #include "\z\pmcs\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

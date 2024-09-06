@@ -9,8 +9,27 @@ class CfgVehicles {
         class ModuleDescription;
     };
 
+    class GVAR(moduleResupply) : Module_F {
+        scope              = 2;
+        displayName        = CSTRING(Resupply);
+        category           = "PMCS";
+        function           = QFUNC(moduleResupply);
+        isGlobal           = 1;
+        isTriggerActivated = 0;
+        curatorInfoType    = "RscDisplayAttributeAudioModule";
+        class Attributes : AttributesBase {
+			class ModuleDescription : ModuleDescription {};
+        };
+        class ModuleDescription : ModuleDescription {
+            description[] = {
+                CSTRING(Resupply_Description1)
+            };
+        };
+    };
+
     class GVAR(moduleTeleport) : Module_F {
         scope              = 2;
+        scopeCurator       = 2;
         displayName        = CSTRING(Teleport);
         category           = "PMCS";
         function           = QFUNC(moduleTeleport);

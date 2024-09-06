@@ -1,6 +1,7 @@
 class CfgFactionClasses {
-    class NO_CATEGORY;
-    class PMCS : NO_CATEGORY {
+    class PMCS {
         displayName = "PMC Sentinel Modules";
+        priority = 2;
+        side = 7;
     };
 };
