@@ -39,7 +39,6 @@ private _items = createHashMapFromArray [
   ["kat_IO_FAST", 60],
   ["kat_guedel", 50],
   ["kat_larynx", 40],
-  ["kat_larynx", 40],
   ["ACE_plasmaIV", 20],
   ["ACE_plasmaIV_500", 20],
   ["ACE_plasmaIV_250", 20],
