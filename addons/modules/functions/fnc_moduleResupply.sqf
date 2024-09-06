@@ -22,7 +22,7 @@ private _secondaryMagCount = 15;
 private _handgunMagCount = 10;
 private _binocularMagCount = 2;
 
-private _resupplyBox = "Box_NATO_Wps_F" createVehicle position _logic;
+private _resupplyBox = "B_supplyCrate_F" createVehicle position _logic;
 private _items = createHashMapFromArray [
   ["ACE_fieldDressing", 75],
   ["ACE_elasticBandage", 75],
