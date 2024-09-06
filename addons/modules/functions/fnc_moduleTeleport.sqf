@@ -5,13 +5,12 @@
  *
  * Arguments:
  * 0: Module logic <OBJECT>
- * 1: Target variable name <STRING>
  *
  * Return Value:
  * None
  *
  * Example:
- * [LOGIC, "tp_hp_1"] call pmcs_teleporter_fnc_moduleTeleport;
+ * [LOGIC"] call pmcs_modules_fnc_moduleTeleport;
  *
  * Public: No
  */
