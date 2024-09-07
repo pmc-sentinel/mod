@@ -32,10 +32,10 @@ private _medMedicineCount = GVAR(Resupply_MedMedicineCount);
 
 private _resupplyBox = "B_supplyCrate_F" createVehicle getPosATL _logic;
 
-clearMagazineCargo _resupplyBox;
-clearWeaponCargo _resupplyBox;
-clearItemCargo _resupplyBox;
-clearBackpackCargo _resupplyBox;
+clearMagazineCargoGlobal _resupplyBox;
+clearWeaponCargoGlobal _resupplyBox;
+clearItemCargoGlobal _resupplyBox;
+clearBackpackCargoGlobal _resupplyBox;
 
 [_resupplyBox, "ACE_fieldDressing", _medBandageCount * _playerCount] call FUNC(appendResupplyItem);
 [_resupplyBox, "ACE_elasticBandage", _medBandageCount * _playerCount] call FUNC(appendResupplyItem);
