@@ -12,7 +12,8 @@ class CfgPatches {
         requiredAddons[] = {
             "ace_interact_menu",
             "kat_pharma",
-            "ace_medical"
+            "ace_medical",
+            "cba_settings",
         };
         author = ECSTRING(common,PMCSTeam);
         authors[] = {"hbjydev"};

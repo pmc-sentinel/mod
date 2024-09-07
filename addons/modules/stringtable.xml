@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="PMCS">
     <Package name="Modules">
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_Category">
+            <English>PMC Sentinel - Resupply</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_PrimaryMags">
+            <English>Primary magazines per player</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_SecondaryMags">
+            <English>Secondary magazines per player</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_HandgunMags">
+            <English>Handgun magazines per player</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_BinocularMags">
+            <English>Binocular batteries per player</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_Grenades">
+            <English>Grenades</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_FragGrenades">
+            <English>Frag grenades per player</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_SmokeShells">
+            <English>Smoke grenades per player</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_Medical">
+            <English>Medical</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_Fluids">
+            <English>Fluids per player</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_MedItems">
+            <English>Items (tourniquets, splits, etc.) per player</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_Bandages">
+            <English>Bandages per player</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Resupply_Medicines">
+            <English>Medicines per player</English>
+        </Key>
         <Key ID="STR_PMCS_Modules_Cat_Utilities">
             <English>PMCS Utilities</English>
         </Key>
