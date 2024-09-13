@@ -31,4 +31,4 @@ if (count everyContainer _box > 0) then {
 
 {
     _x addCuratorEditableObjects [[_box], true];
-} foreach allCurators;
+} forEach allCurators;

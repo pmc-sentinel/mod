@@ -88,4 +88,4 @@ deleteVehicle _logic;
 
 {
   _x addCuratorEditableObjects [[_resupplyBox], true];
-} foreach allCurators;
+} forEach allCurators;
