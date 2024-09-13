@@ -85,3 +85,7 @@ clearBackpackCargoGlobal _resupplyBox;
 } forEach call BIS_fnc_listPlayers;
 
 deleteVehicle _logic;
+
+{
+	_x addCuratorEditableObjects [[_resupplyBox], true];
+} foreach allCurators;
