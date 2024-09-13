@@ -2,7 +2,7 @@
 <Project name="PMCS">
     <Package name="Modules">
         <Key ID="STR_PMCS_Modules_Settings_Resupply_Category">
-            <English>PMC Sentinel - Resupply</English>
+            <English>PMC Sentinel Resupply</English>
         </Key>
         <Key ID="STR_PMCS_Modules_Settings_Resupply_PrimaryMags">
             <English>Primary magazines per player</English>
@@ -41,7 +41,7 @@
             <English>Medicines per player</English>
         </Key>
         <Key ID="STR_PMCS_Modules_Cat_Utilities">
-            <English>PMCS Utilities</English>
+            <English>PMC Sentinel Utilities</English>
         </Key>
         <Key ID="STR_PMCS_Modules_Resupply">
             <English>Spawn resupply crate</English>
@@ -69,6 +69,30 @@
         </Key>
         <Key ID="STR_PMCS_Modules_TeleportDisplayTooltip">
             <English>The text to display in the ACE interact menu.</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Arsenal_Category">
+            <English>PMC Sentinel Arsenal</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Arsenal_InfantryPreset">
+            <English>Infantry arsenal preset</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Settings_Arsenal_AssetPreset">
+            <English>Asset arsenal preset</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_AddInfantryArsenal">
+            <English>Spawn Infantry arsenal</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_AddAssetArsenal">
+            <English>Spawn Asset arsenal</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_Arsenal_Description1">
+            <English>Adds an arsenal to the object the module is placed on.</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_NothingSelected">
+            <English>This module must be placed on an object.</English>
+        </Key>
+        <Key ID="STR_PMCS_Modules_OnlyAlive">
+            <English>This module cannot be used on dead units.</English>
         </Key>
     </Package>
 </Project>
