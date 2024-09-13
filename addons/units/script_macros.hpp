@@ -30,7 +30,7 @@
     priority = PRIORITY; \
 }
 
-#define MACRO_ADDUNITSUBCAT(SIDE,IDX,NAME) class GVAR(SIDE##_##IDX { \
+#define MACRO_ADDUNITSUBCAT(SIDE,IDX,NAME) class GVAR(SIDE##_##IDX) { \
     displayName = NAME; \
 }
 
