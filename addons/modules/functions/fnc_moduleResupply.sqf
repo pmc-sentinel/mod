@@ -87,5 +87,5 @@ clearBackpackCargoGlobal _resupplyBox;
 deleteVehicle _logic;
 
 {
-	_x addCuratorEditableObjects [[_resupplyBox], true];
+  _x addCuratorEditableObjects [[_resupplyBox], true];
 } foreach allCurators;

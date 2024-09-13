@@ -21,14 +21,14 @@ params ["_pos", "_items"];
 private _box = "B_supplyCrate_F" createVehicle _pos;
 
 if (count everyContainer _box > 0) then {
-	clearMagazineCargoGlobal _box;
-	clearWeaponCargoGlobal _box;
-	clearItemCargoGlobal _box;
-	clearBackpackCargoGlobal _box;
+    clearMagazineCargoGlobal _box;
+    clearWeaponCargoGlobal _box;
+    clearItemCargoGlobal _box;
+    clearBackpackCargoGlobal _box;
 };
 
 [_box, _items, true] call ace_arsenal_fnc_initBox;
 
 {
-	_x addCuratorEditableObjects [[_box], true];
+    _x addCuratorEditableObjects [[_box], true];
 } foreach allCurators;
