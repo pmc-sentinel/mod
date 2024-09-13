@@ -2,7 +2,7 @@
 #define COMPONENT_BEAUTIFIED Modules
 #include "\z\pmcs\addons\main\script_mod.hpp"
 
-#define DISABLE_COMPILE_CACHE
+// #define DISABLE_COMPILE_CACHE
 
 #ifdef DEBUG_ENABLED_MODULES
     #define DEBUG_MODE_FULL

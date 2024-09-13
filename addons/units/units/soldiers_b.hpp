@@ -2,14 +2,14 @@
 class B_Soldier_base_F;
 
 // Base class for all PMC Sentinel units
-class PMCS_B_Soldier_base : B_Soldier_base_F {
+class GVAR(blufor_soldier) : B_Soldier_base_F {
     author       = ECSTRING(common,PMCSTeam);
     scope        = 0; // available in 3den
     scopeCurator = 0; // available in Zeus
     scopeArsenal = 0; // available in arsenal
 
     side              = 1; // BLUFOR
-    faction           = "PMCS_B_D"; // set in addons/factions, not in addons/units
+    faction           = QGVAR(blufor_D); // set in addons/factions, not in addons/units
     editorSubcategory = UNITGROUP(B,Men);
 
     identityTypes[] = { "LanguageENG_F", "Head_NATO", "G_NATO_Default" };
@@ -30,7 +30,7 @@ class PMCS_B_Soldier_base : B_Soldier_base_F {
     respawnLinkedItems[] = { "VSM_LBT6094_operator_multicam", "VSM_OPS_multicam", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
 };
 
-class PMCS_B_D_SquadLeader : PMCS_B_Soldier_base {
+class GVAR(blufor_D_SquadLeader) : GVAR(blufor_soldier) {
     displayName = CSTRING(Soldier_SquadLeader);
 
     scope        = 2; // available in 3den
@@ -43,8 +43,8 @@ class PMCS_B_D_SquadLeader : PMCS_B_Soldier_base {
 
     backpack = "tfw_ilbe_whip_mc";
 
-    weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
-    respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+    weapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
 
     Items[] = { "FirstAidKit" };
     RespawnItems[] = { "FirstAidKit" };
@@ -54,12 +54,12 @@ class PMCS_B_D_SquadLeader : PMCS_B_Soldier_base {
 };
 UCOPY(SquadLeader)
 
-class PMCS_B_D_TeamLeader : PMCS_B_D_SquadLeader {
+class GVAR(blufor_D_TeamLeader) : GVAR(blufor_D_SquadLeader) {
     displayName = CSTRING(Soldier_TeamLeader);
 };
 UCOPY(TeamLeader)
 
-class PMCS_B_D_Rifleman : PMCS_B_Soldier_base {
+class GVAR(blufor_D_Rifleman) : GVAR(blufor_soldier) {
     displayName = CSTRING(Soldier_Rifleman);
 
     scope        = 2; // available in 3den
@@ -72,8 +72,8 @@ class PMCS_B_D_Rifleman : PMCS_B_Soldier_base {
 
     backpack = "VSM_Multicam_Backpack_Compact";
 
-    weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
-    respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+    weapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
 
     Items[] = { "FirstAidKit" };
     RespawnItems[] = { "FirstAidKit" };
@@ -83,13 +83,13 @@ class PMCS_B_D_Rifleman : PMCS_B_Soldier_base {
 };
 UCOPY(Rifleman)
 
-class PMCS_B_D_EOD : PMCS_B_D_Rifleman {
+class GVAR(blufor_D_EOD) : GVAR(blufor_D_Rifleman) {
     displayName        = CSTRING(Soldier_EOD);
     canDeactivateMines = 1;
 };
 UCOPY(EOD)
 
-class PMCS_B_D_MissileSpecialist : PMCS_B_Soldier_base {
+class GVAR(blufor_D_MissileSpecialist) : GVAR(blufor_soldier) {
     displayName = CSTRING(Soldier_MissileSpecialist);
 
     scope        = 2; // available in 3den
@@ -102,8 +102,8 @@ class PMCS_B_D_MissileSpecialist : PMCS_B_Soldier_base {
 
     backpack = "VSM_Multicam_carryall";
 
-    weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
-    respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
+    weapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
 
     Items[] = { "FirstAidKit" };
     RespawnItems[] = { "FirstAidKit" };
@@ -113,7 +113,7 @@ class PMCS_B_D_MissileSpecialist : PMCS_B_Soldier_base {
 };
 UCOPY(MissileSpecialist)
 
-class PMCS_B_D_Autorifleman : PMCS_B_Soldier_base {
+class GVAR(blufor_D_Autorifleman) : GVAR(blufor_soldier) {
     displayName = CSTRING(Soldier_Autorifleman);
 
     scope        = 2; // available in 3den
@@ -126,8 +126,8 @@ class PMCS_B_D_Autorifleman : PMCS_B_Soldier_base {
 
     backpack = "VSM_Multicam_Backpack_Compact";
 
-    weapons[] = { "PMCS_M249_PIP_RIS", "rhsusf_weap_glock17g4", "Throw", "Put" };
-    respawnWeapons[] = { "PMCS_M249_PIP_RIS", "rhsusf_weap_glock17g4", "Throw", "Put" };
+    weapons[] = { QGVAR(weapon_M249_PIP_RIS), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_M249_PIP_RIS), "rhsusf_weap_glock17g4", "Throw", "Put" };
 
     Items[] = { "FirstAidKit" };
     RespawnItems[] = { "FirstAidKit" };
@@ -137,7 +137,7 @@ class PMCS_B_D_Autorifleman : PMCS_B_Soldier_base {
 };
 UCOPY(Autorifleman)
 
-class PMCS_B_D_Marksman : PMCS_B_Soldier_base {
+class GVAR(blufor_D_Marksman) : GVAR(blufor_soldier) {
     displayName = CSTRING(Soldier_Marksman);
 
     scope        = 2; // available in 3den
@@ -150,8 +150,8 @@ class PMCS_B_D_Marksman : PMCS_B_Soldier_base {
 
     backpack = "VSM_Multicam_Backpack_Compact";
 
-    weapons[] = { "PMCS_M110k5_ACS", "rhsusf_weap_glock17g4", "Throw", "Put" };
-    respawnWeapons[] = { "PMCS_M110k5_ACS", "rhsusf_weap_glock17g4", "Throw", "Put" };
+    weapons[] = { QGVAR(weapon_M110k5_ACS), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_M110k5_ACS), "rhsusf_weap_glock17g4", "Throw", "Put" };
 
     Items[] = { "FirstAidKit" };
     RespawnItems[] = { "FirstAidKit" };
@@ -161,7 +161,7 @@ class PMCS_B_D_Marksman : PMCS_B_Soldier_base {
 };
 UCOPY(Marksman)
 
-class PMCS_B_D_PilotHelicopter : PMCS_B_Soldier_base {
+class GVAR(blufor_D_PilotHelicopter) : GVAR(blufor_soldier) {
     displayName = CSTRING(Soldier_PilotHelicopter);
 
     scope        = 2; // available in 3den
@@ -177,8 +177,8 @@ class PMCS_B_D_PilotHelicopter : PMCS_B_Soldier_base {
     linkedItems[] = { "VSM_LBT6094_operator_multicam", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ACE_Vector" };
     respawnLinkedItems[] = { "VSM_LBT6094_operator_multicam", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_ancprc152", "ACE_Vector" };
 
-    weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
-    respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+    weapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
 
     Items[] = { "FirstAidKit" };
     RespawnItems[] = { "FirstAidKit" };
@@ -188,7 +188,7 @@ class PMCS_B_D_PilotHelicopter : PMCS_B_Soldier_base {
 };
 UCOPY(PilotHelicopter)
 
-class PMCS_B_D_Medic : PMCS_B_Soldier_base {
+class GVAR(blufor_D_Medic) : GVAR(blufor_soldier) {
     displayName = CSTRING(Soldier_Medic);
 
     scope        = 2; // available in 3den
@@ -201,8 +201,8 @@ class PMCS_B_D_Medic : PMCS_B_Soldier_base {
 
     backpack = "VSM_Multicam_Backpack_Compact";
 
-    weapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
-    respawnWeapons[] = { "PMCS_weap_m4a1", "rhsusf_weap_glock17g4", "Throw", "Put" };
+    weapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
 
     Items[] = { "FirstAidKit" };
     RespawnItems[] = { "FirstAidKit" };
