@@ -168,6 +168,15 @@ class CfgGroups {
                     UNIT_2(CORPORAL,GVAR(blufor_W_MissileSpecialist));
                 };
 
+                class GVAR(blufor_W_inf_ft_aa) {
+                    name = CSTRING(Group_I_FireTeam_AA);
+                    GMETA(W);
+
+                    UNIT_0(SERGEANT,GVAR(blufor_W_TeamLeader));
+                    UNIT_1(CORPORAL,GVAR(blufor_W_Autorifleman));
+                    UNIT_2(CORPORAL,GVAR(blufor_W_MissileSpecialist_AA));
+                };
+
                 class GVAR(blufor_W_inf_ft_cls) {
                     name = CSTRING(Group_I_FireTeam_CLS);
                     GMETA(W);

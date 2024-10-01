@@ -69,6 +69,9 @@
         <Key ID="STR_PMCS_Units_Group_I_FireTeam_AT">
             <English>Fire Team (AT)</English>
         </Key>
+        <Key ID="STR_PMCS_Units_Group_I_FireTeam_AT">
+            <English>Fire Team (AA)</English>
+        </Key>
         <Key ID="STR_PMCS_Units_Group_I_FireTeam_CLS">
             <English>Fire Team (CLS)</English>
         </Key>
