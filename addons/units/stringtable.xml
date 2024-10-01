@@ -19,7 +19,10 @@
             <English>Rifleman</English>
         </Key>
         <Key ID="STR_PMCS_Units_Soldier_MissileSpecialist">
-            <English>Missile Specialist</English>
+            <English>Missile Specialist (AT)</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_MissileSpecialist_AA">
+            <English>Missile Specialist (AA)</English>
         </Key>
         <Key ID="STR_PMCS_Units_Soldier_EOD">
             <English>Explosive Specialist</English>

@@ -1,4 +1,5 @@
 // Ground
+GV_W_OR(MRZR4,rhsusf_mrzr4_w)
 GV_W_OR(WMIK_HMG_FFR,UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_A)
 GV_W_OR(WMIK_GPMG_FFR,UK3CB_BAF_LandRover_WMIK_GPMG_FFR_Green_A)
 GV_W_OR(M1240,rhsusf_m1240a1_usarmy_wd)
