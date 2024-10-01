@@ -69,7 +69,7 @@
         <Key ID="STR_PMCS_Units_Group_I_FireTeam_AT">
             <English>Fire Team (AT)</English>
         </Key>
-        <Key ID="STR_PMCS_Units_Group_I_FireTeam_AT">
+        <Key ID="STR_PMCS_Units_Group_I_FireTeam_AA">
             <English>Fire Team (AA)</English>
         </Key>
         <Key ID="STR_PMCS_Units_Group_I_FireTeam_CLS">
@@ -83,6 +83,9 @@
         </Key>
         <Key ID="STR_PMCS_Units_Group_MO_PatrolHeavy">
             <English>Motorized Patrol (Heavy)</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Group_MO_PatrolM1165A1">
+            <English>Motorized Patrol (M1165A1)</English>
         </Key>
         <Key ID="STR_PMCS_Units_Group_MO_Transport">
             <English>Squad with Transport</English>

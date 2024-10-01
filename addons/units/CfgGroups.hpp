@@ -89,6 +89,17 @@ class CfgGroups {
                     UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_D_MissileSpecialist));
                 };
 
+                class GVAR(blufor_D_mot_ptrl_m1165a1) {
+                    name = CSTRING(Group_MO_PatrolM1165A1);
+                    GMETA(D);
+
+                    UNIT_0(PRIVATE,GVAR(blufor_D_M1165A1));
+
+                    UNIT_XX(1,pmcs_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_D_TeamLeader));
+                    UNIT_XX(2,pmcs_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_D_Rifleman));
+                    UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_D_MissileSpecialist));
+                };
+
                 class GVAR(blufor_D_mot_transport) {
                     name = CSTRING(Group_MO_Transport);
                     GMETA(D);
@@ -218,6 +229,17 @@ class CfgGroups {
 
                     UNIT_XX(1,pmcs_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_W_TeamLeader));
                     UNIT_XX(2,pmcs_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_W_Autorifleman));
+                    UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_W_MissileSpecialist));
+                };
+
+                class GVAR(blufor_W_mot_ptrl_m1165a1) {
+                    name = CSTRING(Group_MO_PatrolM1165A1);
+                    GMETA(W);
+
+                    UNIT_0(PRIVATE,GVAR(blufor_W_M1165A1));
+
+                    UNIT_XX(1,pmcs_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_W_TeamLeader));
+                    UNIT_XX(2,pmcs_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_W_Rifleman));
                     UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_W_MissileSpecialist));
                 };
 

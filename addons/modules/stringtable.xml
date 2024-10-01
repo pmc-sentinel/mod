@@ -88,11 +88,5 @@
         <Key ID="STR_PMCS_Modules_Arsenal_Description1">
             <English>Adds an arsenal to the object the module is placed on.</English>
         </Key>
-        <Key ID="STR_PMCS_Modules_NothingSelected">
-            <English>This module must be placed on an object.</English>
-        </Key>
-        <Key ID="STR_PMCS_Modules_OnlyAlive">
-            <English>This module cannot be used on dead units.</English>
-        </Key>
     </Package>
 </Project>
