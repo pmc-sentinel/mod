@@ -20,7 +20,7 @@ class CfgPatches {
             UPAIR(MRZR4),
             UPAIR(WMIK_HMG_FFR),
             UPAIR(WMIK_GPMG_FFR),
-            QGVAR(blufor_D_M1165A1),
+            UPAIR(M1165A1),
             UPAIR(M1240),
             UPAIR(M1240_M2),
             UPAIR(M1240_M240),
@@ -65,7 +65,10 @@ class CfgPatches {
             "ace_compat_rhs_usf3",
             "ace_thermals",
             "ace_vector",
-            "rhsusf_c_weapons"
+            "rhsusf_c_weapons",
+            "rhsusf_m11xx",
+            "rhsusf_m1165",
+            "rhsusf_hmmwv"
         };
         author = ECSTRING(common,PMCSTeam);
         authors[] = {"hbjydev"};

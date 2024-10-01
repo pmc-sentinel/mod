@@ -1,3 +1,24 @@
+class GVAR(blufor_W_M1165A1) : rhsusf_m1165a1_gmv_m2_m240_socom_d {
+	author = ECSTRING(common,PMCSTeam);
+	faction = QGVAR(blufor_W);
+	crew = QGVAR(blufor_W_Rifleman);
+	scope = 2;
+	scopeCurator = 2;
+
+	hiddenSelections[] = {"camo","camo1","camo2","camo8","camo17","camo18","camo19","BFT_screen"};
+	HiddenSelectionsTextures[] = {
+		"rhsusf\addons\rhsusf_m1165\data\rhsusf_M1165A1_GMV_Ext_WD_CO.paa",
+		"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Tire_wd_CO.paa",
+		"rhsusf\addons\rhsusf_m11xx\data\rhsusf_M1151_Int_CO.paa",
+		"rhsusf\addons\rhsusf_hmmwv\textures\mk64mount_w_co.paa",
+		"rhsusf\addons\rhsusf_m1165\data\rhsusf_M1165A1_GMV_WD_CO.paa",
+		"rhsusf\addons\rhsusf_m1165\data\rhsusf_M1165A1_GMV_SAG_WD_CO.paa",
+		"rhsusf\addons\rhsusf_m1165\data\rhsusf_m11165a1_gmv_h246mount_wd_co.paa"
+	};
+
+	textureList[] = {"rhs_woodland",1};
+};
+
 // Ground
 GV_W_OR(MRZR4,rhsusf_mrzr4_w)
 GV_W_OR(WMIK_HMG_FFR,UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_A)
