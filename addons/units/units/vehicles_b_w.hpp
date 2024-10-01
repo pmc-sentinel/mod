@@ -32,6 +32,10 @@ GV_W_OR(Husky_HMG,UK3CB_BAF_Husky_Passenger_HMG_Green)
 GV_W_OR(Husky_GPMG,UK3CB_BAF_Husky_Passenger_GPMG_Green)
 GV_W_OR(M1232,rhsusf_M1232_usarmy_wd)
 GV_W_OR(M1232_M2,rhsusf_M1232_M2_usarmy_wd)
+GV_W_OR(M1220,rhsusf_M1220_usarmy_wd)
+GV_W_OR(M1220_M2,rhsusf_M1220_M2_usarmy_wd)
+GV_W_OR(M1237,rhsusf_M1237_M2_usarmy_wd)
+GV_W_OR(M1127,rhsusf_stryker_M1127_M2_wd)
 
 // Logistics
 GV_W_OR(M1078A1P2_B_M2_Flatbed,rhsusf_M1078A1P2_B_M2_WD_flatbed_fmtv_usarmy)
@@ -43,6 +47,10 @@ GV_W_OR(M1078A1P2,rhsusf_M1078A1P2_WD_fmtv_usarmy)
 GV_W_OR(M977A4_Ammo,rhsusf_M977A4_AMMO_usarmy_wd)
 GV_W_OR(M977A4_Repair,rhsusf_M977A4_REPAIR_usarmy_wd)
 GV_W_OR(M978A4,rhsusf_M978A4_usarmy_wd)
+
+// Boats
+GV_W_OR_NI(AssaultBoat_HMG,UK3CB_BAF_RHIB_HMG)
+GV_W_OR_NI(AssaultBoat_GPMG,UK3CB_BAF_RHIB_GPMG)
 
 // Rotary Logistics
 AV_W_OR_NI(MH6M,RHS_MELB_MH6M)
