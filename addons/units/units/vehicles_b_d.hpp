@@ -18,11 +18,11 @@ GV_D_OR(M1237,rhsusf_M1237_M2_usarmy_d)
 
 class rhsusf_stryker_M1127_M2_d;
 class GVAR(blufor_D_M1127) : rhsusf_stryker_M1127_M2_d {
-	author = ECSTRING(common,PMCSTeam);
-	faction = QGVAR(blufor_D);
-	crew = QGVAR(blufor_W_Rifleman);
-	scope = 2;
-	scopeCurator = 2;
+    author = ECSTRING(common,PMCSTeam);
+    faction = QGVAR(blufor_D);
+    crew = QGVAR(blufor_W_Rifleman);
+    scope = 2;
+    scopeCurator = 2;
 
     hiddenSelectionsTextures[] = {
         "rhsusf\addons\rhsusf_stryker\data\rhsusf_m1126_hull_d_co.paa",
