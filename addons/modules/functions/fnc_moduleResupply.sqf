@@ -84,6 +84,8 @@ clearBackpackCargoGlobal _resupplyBox;
 
 } forEach call BIS_fnc_listPlayers;
 
+_resupplyBox setMass [0, 0];
+
 deleteVehicle _logic;
 
 {
