@@ -13,7 +13,6 @@ include = [
 ]
 
 [hemtt.launch.default]
-mission = "tptest.vr"
 workshop = [
     "450814997",  # CBA_A3
     "823636749",  # VSM All-In-One Collection
@@ -28,6 +27,10 @@ workshop = [
     "893349825",  # 3CB BAF Vehicles
     "1351428303", # AH-64D Official Project
 ]
+
+[hemtt.launch.editor]
+extends = "default"
+mission = "tptest.vr"
 
 [hemtt.launch.alive]
 extends = "default"
