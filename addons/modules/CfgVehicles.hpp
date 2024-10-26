@@ -33,6 +33,12 @@ class CfgVehicles {
         };
     };
 
+    class GVAR(modulePersistSave) : GVAR(moduleBase) {
+        displayName = CSTRING(PersistSave);
+        category = QGVAR(Utilities);
+        function = QFUNC(modulePersistSave);
+    };
+
     class GVAR(moduleAddInfantryArsenal) : GVAR(moduleBase) {
         displayName = CSTRING(AddInfantryArsenal);
         category = QGVAR(Utilities);

@@ -88,5 +88,8 @@
         <Key ID="STR_PMCS_Modules_Arsenal_Description1">
             <English>Adds an arsenal to the object the module is placed on.</English>
         </Key>
+        <Key ID="STR_PMCS_Modules_PersistSave">
+            <English>PERSIST Save</English>
+        </Key>
     </Package>
 </Project>

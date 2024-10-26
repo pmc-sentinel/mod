@@ -5,6 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             QGVAR(moduleResupply),
+            QGVAR(modulePersistSave),
             QGVAR(moduleTeleport),
             QGVAR(moduleAddInfantryArsenal),
             QGVAR(moduleAddAssetArsenal),
