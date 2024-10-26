@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="PMCS">
     <Package name="Main">
+        <Key ID="STR_PMCS_Main_Author">
+            <English>PMC Sentinel Team</English>
+        </Key>
         <Key ID="STR_PMCS_Main_Name">
             <English>PMC Sentinel</English>
         </Key>
         <Key ID="STR_PMCS_Main_URL">
             <English>https://discord.gg/Ctfu2DTb7f</English>
-        </Key>
-        <Key ID="STR_PMCS_Main_Author">
-            <English>PMC Sentinel Team</English>
         </Key>
     </Package>
 </Project>

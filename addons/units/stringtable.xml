@@ -1,52 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="PMCS">
     <Package name="Units">
-        <!-- Unit Groups -->
-        <Key ID="STR_PMCS_Units_UnitGroup_Men">
-            <English>Men</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_UnitGroup_Helicopters">
-            <English>Helicopters</English>
-        </Key>
-        <!-- Units -->
-        <Key ID="STR_PMCS_Units_Soldier_SquadLeader">
-            <English>Squad Leader</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_Soldier_TeamLeader">
-            <English>Team Leader</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_Soldier_Rifleman">
-            <English>Rifleman</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_Soldier_MissileSpecialist">
-            <English>Missile Specialist (AT)</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_Soldier_MissileSpecialist_AA">
-            <English>Missile Specialist (AA)</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_Soldier_EOD">
-            <English>Explosive Specialist</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_Soldier_Autorifleman">
-            <English>Autorifleman</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_Soldier_Marksman">
-            <English>Marksman</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_Soldier_Medic">
-            <English>Medic</English>
-        </Key>
-        <Key ID="STR_PMCS_Units_Soldier_PilotHelicopter">
-            <English>Helicopter Pilot</English>
-        </Key>
-        <!-- Faction Data -->
         <Key ID="STR_PMCS_Units_BLUFOR_DisplayName_D">
             <English>PMC Sentinel (D)</English>
         </Key>
         <Key ID="STR_PMCS_Units_BLUFOR_DisplayName_W">
             <English>PMC Sentinel (W)</English>
         </Key>
-        <!-- Group Sets -->
         <Key ID="STR_PMCS_Units_GroupSet_Infantry">
             <English>Infantry</English>
         </Key>
@@ -59,24 +19,23 @@
         <Key ID="STR_PMCS_Units_GroupSet_Support">
             <English>Support Infantry</English>
         </Key>
-        <!-- Groups -->
-        <Key ID="STR_PMCS_Units_Group_I_Squad">
-            <English>Squad</English>
-        </Key>
         <Key ID="STR_PMCS_Units_Group_I_FireTeam">
             <English>Fire Team</English>
         </Key>
-        <Key ID="STR_PMCS_Units_Group_I_FireTeam_AT">
-            <English>Fire Team (AT)</English>
-        </Key>
         <Key ID="STR_PMCS_Units_Group_I_FireTeam_AA">
             <English>Fire Team (AA)</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Group_I_FireTeam_AT">
+            <English>Fire Team (AT)</English>
         </Key>
         <Key ID="STR_PMCS_Units_Group_I_FireTeam_CLS">
             <English>Fire Team (CLS)</English>
         </Key>
         <Key ID="STR_PMCS_Units_Group_I_FireTeam_EOD">
             <English>Fire Team (EOD)</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Group_I_Squad">
+            <English>Squad</English>
         </Key>
         <Key ID="STR_PMCS_Units_Group_MO_Patrol">
             <English>Motorized Patrol</English>
@@ -95,6 +54,42 @@
         </Key>
         <Key ID="STR_PMCS_Units_Group_SU_GunnerPair">
             <English>Suppression Team</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_Autorifleman">
+            <English>Autorifleman</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_EOD">
+            <English>Explosive Specialist</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_Marksman">
+            <English>Marksman</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_Medic">
+            <English>Medic</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_MissileSpecialist">
+            <English>Missile Specialist (AT)</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_MissileSpecialist_AA">
+            <English>Missile Specialist (AA)</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_PilotHelicopter">
+            <English>Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_Rifleman">
+            <English>Rifleman</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_SquadLeader">
+            <English>Squad Leader</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_Soldier_TeamLeader">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_UnitGroup_Helicopters">
+            <English>Helicopters</English>
+        </Key>
+        <Key ID="STR_PMCS_Units_UnitGroup_Men">
+            <English>Men</English>
         </Key>
     </Package>
 </Project>
