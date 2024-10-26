@@ -15,6 +15,9 @@
     <a href="https://github.com/pmc-sentinel/mod/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-APL2-red.svg?style=flat-square" alt="PMC Sentinel Mod License">
     </a>
+    <a href="https://github.com/pmc-sentinel/mods/actions/workflows/hemtt.yaml">
+        <img src="https://img.shields.io/github/actions/workflow/status/pmc-sentinel/mod/hemtt.yaml?style=flat-square" alt="Build status">
+    </a>
 </p>
 
 This mod contains utilities, modules, factions, and the like for use within our unit, PMC Sentinel.
