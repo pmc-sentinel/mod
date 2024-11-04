@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "brettmayson.hemtt",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "armitxes.sqf",
+        "sqf-vm.sqf-vm-language-server"
+    ]
+}
