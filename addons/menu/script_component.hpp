@@ -1,6 +1,6 @@
 #define COMPONENT menu
 #define COMPONENT_BEAUTIFIED Menu
-#include "\z\pmcs\addons\main\script_mod.hpp"
+#include "\z\tfp\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -14,4 +14,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_MENU
 #endif
 
-#include "\z\pmcs\addons\main\script_macros.hpp"
+#include "\z\tfp\addons\main\script_macros.hpp"

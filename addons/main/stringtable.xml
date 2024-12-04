@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="PMCS">
+<Project name="tfp">
     <Package name="Main">
-        <Key ID="STR_PMCS_Main_Author">
-            <English>PMC Sentinel Team</English>
+        <Key ID="STR_tfp_Main_Author">
+            <English>Task Force Prometheus Team</English>
         </Key>
-        <Key ID="STR_PMCS_Main_Name">
-            <English>PMC Sentinel</English>
+        <Key ID="STR_tfp_Main_Name">
+            <English>Task Force Prometheus</English>
         </Key>
-        <Key ID="STR_PMCS_Main_URL">
+        <Key ID="STR_tfp_Main_URL">
             <English>https://discord.gg/Ctfu2DTb7f</English>
         </Key>
     </Package>

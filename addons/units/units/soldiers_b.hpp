@@ -1,9 +1,9 @@
 // Must be set to extend for individual soldier classes.
 class B_Soldier_base_F;
 
-// Base class for all PMC Sentinel units
+// Base class for all Task Force Prometheus units
 class GVAR(blufor_soldier) : B_Soldier_base_F {
-    author       = ECSTRING(common,PMCSTeam);
+    author       = ECSTRING(common,tfpTeam);
     scope        = 0; // available in 3den
     scopeCurator = 0; // available in Zeus
     scopeArsenal = 0; // available in arsenal
@@ -24,7 +24,7 @@ class GVAR(blufor_soldier) : B_Soldier_base_F {
     attendant          = 0; // Has Medic trait
 
     hiddenSelections[]         = { "Camo", "Insignia" };
-    hiddenSelectionsTextures[] = { "VSM_Multicam\Data\VSM_ARD_Multicam_grey_shirt_1.paa", "z\pmcs\addons\patches\pmcs_insig.paa" };
+    hiddenSelectionsTextures[] = { "VSM_Multicam\Data\VSM_ARD_Multicam_grey_shirt_1.paa", "z\tfp\addons\patches\tfp_insig.paa" };
 
     model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
 

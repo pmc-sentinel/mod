@@ -1,6 +1,6 @@
 #define COMPONENT common
 #define COMPONENT_BEAUTIFIED Common
-#include "\z\pmcs\addons\main\script_mod.hpp"
+#include "\z\tfp\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_COMMON
     #define DEBUG_MODE_FULL
@@ -10,4 +10,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_COMMON
 #endif
 
-#include "\z\pmcs\addons\main\script_macros.hpp"
+#include "\z\tfp\addons\main\script_macros.hpp"

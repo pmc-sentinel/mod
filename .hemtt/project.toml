@@ -1,6 +1,6 @@
-name = "PMC Sentinel"
-author = "PMC Sentinel Team"
-prefix = "pmcs"
+name = "Task Force Prometheus"
+author = "Task Force Prometheus Team"
+prefix = "tfp"
 mainprefix = "z"
 
 [files]
@@ -8,7 +8,7 @@ include = [
     "mod.cpp",
     "README*.md",
     "LICENSE",
-    "logo_pmcs.paa",
+    "logo_tfp.paa",
     "meta.cpp",
 ]
 

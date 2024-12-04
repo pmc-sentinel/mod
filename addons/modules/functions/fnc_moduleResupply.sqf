@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [LOGIC] call pmcs_resupply_fnc_moduleResupply;
+ * [LOGIC] call tfp_resupply_fnc_moduleResupply;
  *
  * Public: No
  */

@@ -1,8 +1,8 @@
 class CfgUnitInsignia {
-    class PMCS {
+    class tfp {
         displayName = ECSTRING(main,Name);
-        author = ECSTRING(common,PMCSTeam);
-        texture = "\z\pmcs\addons\patches\pmcs_insig.paa";
+        author = ECSTRING(common,tfpTeam);
+        texture = "\z\tfp\addons\patches\tfp_insig.paa";
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };

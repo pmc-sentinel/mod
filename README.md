@@ -4,29 +4,29 @@
 
 <p align="center">
     <a href="https://github.com/pmc-sentinel/mod/releases">
-        <img src="https://img.shields.io/github/release/pmc-sentinel/mod.svg?style=flat-square&label=Version" alt="PMC Sentinel Mod Version">
+        <img src="https://img.shields.io/github/release/pmc-sentinel/mod.svg?style=flat-square&label=Version" alt="Task Force Prometheus Mod Version">
     </a>
     <a href="https://github.com/pmc-sentinel/mod/issues">
-        <img src="https://img.shields.io/github/issues-raw/pmc-sentinel/mod.svg?style=flat-square&label=Issues" alt="PMC Sentinel Mod Issues">
+        <img src="https://img.shields.io/github/issues-raw/pmc-sentinel/mod.svg?style=flat-square&label=Issues" alt="Task Force Prometheus Mod Issues">
     </a>
     <a href="https://discord.gg/Ctfu2DTb7f">
-        <img src="https://img.shields.io/badge/Join-Discord?style=flat-square&logo=discord&logoColor=7683D5&label=Discord&color=7683D5" alt="PMC Sentinel Discord">
+        <img src="https://img.shields.io/badge/Join-Discord?style=flat-square&logo=discord&logoColor=7683D5&label=Discord&color=7683D5" alt="Task Force Prometheus Discord">
     </a>
     <a href="https://github.com/pmc-sentinel/mod/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-APL2-red.svg?style=flat-square" alt="PMC Sentinel Mod License">
+        <img src="https://img.shields.io/badge/License-APL2-red.svg?style=flat-square" alt="Task Force Prometheus Mod License">
     </a>
     <a href="https://github.com/pmc-sentinel/mods/actions/workflows/hemtt.yaml">
         <img src="https://img.shields.io/github/actions/workflow/status/pmc-sentinel/mod/hemtt.yaml?style=flat-square" alt="Build status">
     </a>
 </p>
 
-This mod contains utilities, modules, factions, and the like for use within our unit, PMC Sentinel.
+This mod contains utilities, modules, factions, and the like for use within our unit, Task Force Prometheus.
 
 ## Features
 
-- Up-to-date factions representing woodland and desert camo PMC Sentinel teams.
+- Up-to-date factions representing woodland and desert camo Task Force Prometheus teams.
 - Ease-of-use 3DEN and Zeus modules to assist in missionmaking.
-- In-game PMC Sentinel patch.
+- In-game Task Force Prometheus patch.
 
 ## Installation
 

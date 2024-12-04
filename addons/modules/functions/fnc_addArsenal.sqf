@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [_this, true] call pmcs_modules_fnc_addArsenal;
+ * [_this, true] call tfp_modules_fnc_addArsenal;
  *
  * Public: No
  */

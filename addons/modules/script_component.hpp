@@ -1,6 +1,6 @@
 #define COMPONENT modules
 #define COMPONENT_BEAUTIFIED Modules
-#include "\z\pmcs\addons\main\script_mod.hpp"
+#include "\z\tfp\addons\main\script_mod.hpp"
 
 #define DISABLE_COMPILE_CACHE
 
@@ -12,4 +12,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_MODULES
 #endif
 
-#include "\z\pmcs\addons\main\script_macros.hpp"
+#include "\z\tfp\addons\main\script_macros.hpp"

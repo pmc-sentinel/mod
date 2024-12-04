@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [LOGIC] call pmcs_modules_fnc_modulePersistSave;
+ * [LOGIC] call tfp_modules_fnc_modulePersistSave;
  *
  * Public: No
  */

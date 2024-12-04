@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="PMCS">
+<Project name="tfp">
     <Package name="Common">
-        <Key ID="STR_PMCS_Common_PMCSTeam">
-            <English>PMC Sentinel Team</English>
+        <Key ID="STR_tfp_Common_tfpTeam">
+            <English>Task Force Prometheus Team</English>
         </Key>
     </Package>
 </Project>

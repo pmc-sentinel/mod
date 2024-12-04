@@ -12,7 +12,7 @@ class CfgPatches {
 class CfgMainMenuSpotlight {
     class GVAR(1MainOperations) {
         text = "Main Operations Server";
-        picture = "\z\pmcs\addons\menu\res\server_1.paa";
+        picture = "\z\tfp\addons\menu\res\server_1.paa";
         action = "connectToServer ['141.95.72.12', 2302, 'SENTPMC']";
         actionText = "Connect";
         condition = "true";
@@ -20,7 +20,7 @@ class CfgMainMenuSpotlight {
 
     class GVAR(2Training) {
         text = "Training Server";
-        picture = "\z\pmcs\addons\menu\res\server_2.paa";
+        picture = "\z\tfp\addons\menu\res\server_2.paa";
         action = "connectToServer ['141.95.72.12', 2402, 'SENTPMC']";
         actionText = "Connect";
         condition = "true";

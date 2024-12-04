@@ -1,10 +1,10 @@
-#define pmcs_b_mot_ptrl_UNIT_1_POS {0,-7,0}
-#define pmcs_b_mot_ptrl_UNIT_2_POS {5,-12,0}
-#define pmcs_b_mot_ptrl_UNIT_3_POS {-5,-12,0}
-#define pmcs_b_mot_ptrl_h_UNIT_1_POS {0,-7,0}
-#define pmcs_b_mot_ptrl_h_UNIT_2_POS {5,-12,0}
-#define pmcs_b_mot_ptrl_h_UNIT_3_POS {-5,-12,0}
-#define pmcs_b_mot_transport_UNIT_8_POS {0,-22,0}
+#define tfp_b_mot_ptrl_UNIT_1_POS {0,-7,0}
+#define tfp_b_mot_ptrl_UNIT_2_POS {5,-12,0}
+#define tfp_b_mot_ptrl_UNIT_3_POS {-5,-12,0}
+#define tfp_b_mot_ptrl_h_UNIT_1_POS {0,-7,0}
+#define tfp_b_mot_ptrl_h_UNIT_2_POS {5,-12,0}
+#define tfp_b_mot_ptrl_h_UNIT_3_POS {-5,-12,0}
+#define tfp_b_mot_transport_UNIT_8_POS {0,-22,0}
 
 class CfgGroups {
     class WEST {
@@ -73,9 +73,9 @@ class CfgGroups {
 
                     UNIT_0(PRIVATE,GVAR(blufor_D_WMIK_GPMG_FFR));
 
-                    UNIT_XX(1,pmcs_b_mot_ptrl_UNIT_1_POS,SERGEANT,GVAR(blufor_D_TeamLeader));
-                    UNIT_XX(2,pmcs_b_mot_ptrl_UNIT_2_POS,CORPORAL,GVAR(blufor_D_Autorifleman));
-                    UNIT_XX(3,pmcs_b_mot_ptrl_UNIT_3_POS,CORPORAL,GVAR(blufor_D_EOD));
+                    UNIT_XX(1,tfp_b_mot_ptrl_UNIT_1_POS,SERGEANT,GVAR(blufor_D_TeamLeader));
+                    UNIT_XX(2,tfp_b_mot_ptrl_UNIT_2_POS,CORPORAL,GVAR(blufor_D_Autorifleman));
+                    UNIT_XX(3,tfp_b_mot_ptrl_UNIT_3_POS,CORPORAL,GVAR(blufor_D_EOD));
                 };
 
                 class GVAR(blufor_D_mot_ptrl_h) {
@@ -84,9 +84,9 @@ class CfgGroups {
 
                     UNIT_0(PRIVATE,GVAR(blufor_D_M1232_M2));
 
-                    UNIT_XX(1,pmcs_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_D_TeamLeader));
-                    UNIT_XX(2,pmcs_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_D_Autorifleman));
-                    UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_D_MissileSpecialist));
+                    UNIT_XX(1,tfp_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_D_TeamLeader));
+                    UNIT_XX(2,tfp_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_D_Autorifleman));
+                    UNIT_XX(3,tfp_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_D_MissileSpecialist));
                 };
 
                 class GVAR(blufor_D_mot_ptrl_m1165a1) {
@@ -95,9 +95,9 @@ class CfgGroups {
 
                     UNIT_0(PRIVATE,GVAR(blufor_D_M1165A1));
 
-                    UNIT_XX(1,pmcs_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_D_TeamLeader));
-                    UNIT_XX(2,pmcs_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_D_Rifleman));
-                    UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_D_MissileSpecialist));
+                    UNIT_XX(1,tfp_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_D_TeamLeader));
+                    UNIT_XX(2,tfp_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_D_Rifleman));
+                    UNIT_XX(3,tfp_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_D_MissileSpecialist));
                 };
 
                 class GVAR(blufor_D_mot_transport) {
@@ -112,7 +112,7 @@ class CfgGroups {
                     UNIT_4(CORPORAL,GVAR(blufor_D_Autorifleman));
                     UNIT_5(CORPORAL,GVAR(blufor_D_MissileSpecialist));
 
-                    UNIT_XX(8,pmcs_b_mot_transport_UNIT_8_POS,PRIVATE,GVAR(blufor_D_M1232_M2));
+                    UNIT_XX(8,tfp_b_mot_transport_UNIT_8_POS,PRIVATE,GVAR(blufor_D_M1232_M2));
                 };
             };
 
@@ -216,9 +216,9 @@ class CfgGroups {
 
                     UNIT_0(PRIVATE,GVAR(blufor_W_WMIK_GPMG_FFR));
 
-                    UNIT_XX(1,pmcs_b_mot_ptrl_UNIT_1_POS,SERGEANT,GVAR(blufor_W_TeamLeader));
-                    UNIT_XX(2,pmcs_b_mot_ptrl_UNIT_2_POS,CORPORAL,GVAR(blufor_W_Autorifleman));
-                    UNIT_XX(3,pmcs_b_mot_ptrl_UNIT_3_POS,CORPORAL,GVAR(blufor_W_EOD));
+                    UNIT_XX(1,tfp_b_mot_ptrl_UNIT_1_POS,SERGEANT,GVAR(blufor_W_TeamLeader));
+                    UNIT_XX(2,tfp_b_mot_ptrl_UNIT_2_POS,CORPORAL,GVAR(blufor_W_Autorifleman));
+                    UNIT_XX(3,tfp_b_mot_ptrl_UNIT_3_POS,CORPORAL,GVAR(blufor_W_EOD));
                 };
 
                 class GVAR(blufor_W_mot_ptrl_h) {
@@ -227,9 +227,9 @@ class CfgGroups {
 
                     UNIT_0(PRIVATE,GVAR(blufor_D_M1232_M2));
 
-                    UNIT_XX(1,pmcs_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_W_TeamLeader));
-                    UNIT_XX(2,pmcs_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_W_Autorifleman));
-                    UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_W_MissileSpecialist));
+                    UNIT_XX(1,tfp_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_W_TeamLeader));
+                    UNIT_XX(2,tfp_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_W_Autorifleman));
+                    UNIT_XX(3,tfp_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_W_MissileSpecialist));
                 };
 
                 class GVAR(blufor_W_mot_ptrl_m1165a1) {
@@ -238,9 +238,9 @@ class CfgGroups {
 
                     UNIT_0(PRIVATE,GVAR(blufor_W_M1165A1));
 
-                    UNIT_XX(1,pmcs_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_W_TeamLeader));
-                    UNIT_XX(2,pmcs_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_W_Rifleman));
-                    UNIT_XX(3,pmcs_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_W_MissileSpecialist));
+                    UNIT_XX(1,tfp_b_mot_ptrl_h_UNIT_1_POS,SERGEANT,GVAR(blufor_W_TeamLeader));
+                    UNIT_XX(2,tfp_b_mot_ptrl_h_UNIT_2_POS,CORPORAL,GVAR(blufor_W_Rifleman));
+                    UNIT_XX(3,tfp_b_mot_ptrl_h_UNIT_3_POS,CORPORAL,GVAR(blufor_W_MissileSpecialist));
                 };
 
                 class GVAR(blufor_W_mot_transport) {
@@ -255,7 +255,7 @@ class CfgGroups {
                     UNIT_4(CORPORAL,GVAR(blufor_W_Autorifleman));
                     UNIT_5(CORPORAL,GVAR(blufor_W_MissileSpecialist));
 
-                    UNIT_XX(8,pmcs_b_mot_transport_UNIT_8_POS,PRIVATE,GVAR(blufor_W_M1232_M2));
+                    UNIT_XX(8,tfp_b_mot_transport_UNIT_8_POS,PRIVATE,GVAR(blufor_W_M1232_M2));
                 };
             };
 

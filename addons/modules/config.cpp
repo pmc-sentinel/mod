@@ -19,7 +19,7 @@ class CfgPatches {
             "cba_settings",
             "ace_arsenal"
         };
-        author = ECSTRING(common,PMCSTeam);
+        author = ECSTRING(common,tfpTeam);
         authors[] = {"hbjydev"};
         url = ECSTRING(main,url);
         VERSION_CONFIG;

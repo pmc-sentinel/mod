@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX pmcs
+#define PREFIX tfp
 
 #include "script_version.hpp"
 
@@ -11,7 +11,7 @@
 #define REQUIRED_CBA_VERSION {3,16,0}
 
 #ifdef SUBCOMPONENT_BEAUTIFIED
-    #define COMPONENT_NAME QUOTE(PMC Sentinel Factions - COMPONENT_BEAUTIFIED - SUBCOMPONENT_BEAUTIFIED)
+    #define COMPONENT_NAME QUOTE(Task Force Prometheus Factions - COMPONENT_BEAUTIFIED - SUBCOMPONENT_BEAUTIFIED)
 #else
-    #define COMPONENT_NAME QUOTE(PMC Sentinel Factions - COMPONENT_BEAUTIFIED)
+    #define COMPONENT_NAME QUOTE(Task Force Prometheus Factions - COMPONENT_BEAUTIFIED)
 #endif
