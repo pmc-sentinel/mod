@@ -12,6 +12,11 @@ include = [
     "meta.cpp",
 ]
 
+[lints.sqf.var_all_caps]
+options.ignore = [
+    "ACE_RECOMPILES",
+]
+
 [hemtt.launch.default]
 workshop = [
     "450814997",  # CBA_A3
