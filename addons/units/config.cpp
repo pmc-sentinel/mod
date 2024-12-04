@@ -6,6 +6,7 @@ class CfgPatches {
         units[] = {
             // Soldiers
             UPAIR(Rifleman),
+            UPAIR(Rifleman_MCX),
             UPAIR(SquadLeader),
             UPAIR(TeamLeader),
             UPAIR(EOD),
@@ -13,6 +14,7 @@ class CfgPatches {
             UPAIR(MissileSpecialist_AA),
             UPAIR(Autorifleman),
             UPAIR(Marksman),
+            UPAIR(Marksman_VSS),
             UPAIR(PilotHelicopter),
             UPAIR(Medic),
 

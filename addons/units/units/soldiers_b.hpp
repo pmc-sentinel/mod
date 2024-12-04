@@ -24,18 +24,18 @@ class GVAR(blufor_soldier) : B_Soldier_base_F {
     attendant          = 0; // Has Medic trait
 
     hiddenSelections[]         = { "Camo", "Insignia" };
-    hiddenSelectionsTextures[] = { "VSM_Multicam\Data\VSM_ARD_Multicam_grey_shirt_1.paa", "z\tfp\addons\patches\tfp_insig.paa" };
+    hiddenSelectionsTextures[] = { "VSM_Multicam\Data\VSM_ARD_Multicam_1.paa", "z\tfp\addons\patches\tfp_insig.paa" };
 
     model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
 
-    uniformClass = "VSM_Multicam_Crye_grey_shirt_Camo";
+    uniformClass = "VSM_Multicam_Crye_Camo";
 
     linkedItems[]        = { "VSM_LBT6094_operator_multicam", "VSM_OPS_multicam", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ACE_Vector" };
     respawnLinkedItems[] = { "VSM_LBT6094_operator_multicam", "VSM_OPS_multicam", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
 };
 
 class GVAR(blufor_D_Rifleman) : GVAR(blufor_soldier) {
-    displayName = CSTRING(Soldier_Rifleman);
+    displayName = CSTRING(Soldier_Rifleman_AK);
 
     scope        = 2; // available in 3den
     scopeCurator = 2; // available in Zeus
@@ -43,16 +43,36 @@ class GVAR(blufor_D_Rifleman) : GVAR(blufor_soldier) {
 
     backpack = "VSM_Multicam_Backpack_Compact";
 
-    weapons[]        = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
-    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+    weapons[]        = { QGVAR(weapon_ak103_zenitco01_b33), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_ak103_zenitco01_b33), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
 
     Items[]        = { "FirstAidKit" };
     RespawnItems[] = { "FirstAidKit" };
 
-    magazines[]        = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
-    respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    magazines[]        = { MAG_5(rhs_30Rnd_762x39mm_polymer), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    respawnMagazines[] = { MAG_5(rhs_30Rnd_762x39mm_polymer), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
 UCOPY(Rifleman)
+
+class GVAR(blufor_D_Rifleman_MCX) : GVAR(blufor_soldier) {
+    displayName = CSTRING(Soldier_Rifleman_MCX);
+
+    scope        = 2; // available in 3den
+    scopeCurator = 2; // available in Zeus
+    scopeArsenal = 2; // available in arsenal
+
+    backpack = "VSM_Multicam_Backpack_Compact";
+
+    weapons[]        = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "rhs_weap_M136_hedp", "Throw", "Put" };
+
+    Items[]        = { "FirstAidKit" };
+    RespawnItems[] = { "FirstAidKit" };
+
+    magazines[]        = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    respawnMagazines[] = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+};
+UCOPY(Rifleman_MCX)
 
 class GVAR(blufor_D_SquadLeader) : GVAR(blufor_D_Rifleman) {
     displayName = CSTRING(Soldier_SquadLeader);
@@ -60,11 +80,11 @@ class GVAR(blufor_D_SquadLeader) : GVAR(blufor_D_Rifleman) {
     backpack = "tfw_ilbe_whip_mc";
     icon     = "iconManLeader";
 
-    weapons[]        = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
-    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    weapons[]        = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "Throw", "Put" };
 
-    magazines[]        = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
-    respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    magazines[]        = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    respawnMagazines[] = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
 UCOPY(SquadLeader)
 
@@ -86,11 +106,11 @@ class GVAR(blufor_D_MissileSpecialist) : GVAR(blufor_D_Rifleman) {
     backpack = "VSM_Multicam_carryall";
     icon     = "iconManAT";
 
-    weapons[]        = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
-    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
+    weapons[]        = { QGVAR(weapon_ak103_zenitco01_b33), "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_ak103_zenitco01_b33), "rhsusf_weap_glock17g4", "rhs_weap_maaws", "Throw", "Put" };
 
-    magazines[]        = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), MAG_4(rhs_mag_maaws_hedp), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
-    respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), MAG_4(rhs_mag_maaws_hedp), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    magazines[]        = { MAG_5(rhs_30Rnd_762x39mm_polymer), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), MAG_4(rhs_mag_maaws_hedp), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    respawnMagazines[] = { MAG_5(rhs_30Rnd_762x39mm_polymer), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), MAG_4(rhs_mag_maaws_hedp), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
 UCOPY(MissileSpecialist)
 
@@ -100,11 +120,11 @@ class GVAR(blufor_D_MissileSpecialist_AA) : GVAR(blufor_D_Rifleman) {
     backpack = "VSM_Multicam_carryall";
     icon     = "iconManAT";
 
-    weapons[]        = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_fim92", "Throw", "Put" };
-    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "rhs_weap_fim92", "Throw", "Put" };
+    weapons[]        = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "rhs_weap_fim92", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "rhs_weap_fim92", "Throw", "Put" };
 
-    magazines[]        = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade), MAG_2(rhs_fim92_mag) };
-    respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade), MAG_2(rhs_fim92_mag) };
+    magazines[]        = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade), MAG_2(rhs_fim92_mag) };
+    respawnMagazines[] = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade), MAG_2(rhs_fim92_mag) };
 };
 UCOPY(MissileSpecialist_AA)
 
@@ -133,6 +153,17 @@ class GVAR(blufor_D_Marksman) : GVAR(blufor_D_Rifleman) {
 };
 UCOPY(Marksman)
 
+class GVAR(blufor_D_Marksman_VSS) : GVAR(blufor_D_Rifleman) {
+    displayName = CSTRING(Soldier_Marksman_VSS);
+
+    weapons[]        = { QGVAR(weapon_VSS_Vintorez), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_VSS_Vintorez), "rhsusf_weap_glock17g4", "Throw", "Put" };
+
+    magazines[]        = { MAG_5(rhs_20rnd_9x39mm_SP6), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    respawnMagazines[] = { MAG_5(rhs_20rnd_9x39mm_SP6), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+};
+UCOPY(Marksman_VSS)
+
 class GVAR(blufor_D_PilotHelicopter) : GVAR(blufor_D_Rifleman) {
     displayName = CSTRING(Soldier_PilotHelicopter);
 
@@ -141,11 +172,11 @@ class GVAR(blufor_D_PilotHelicopter) : GVAR(blufor_D_Rifleman) {
     linkedItems[]        = { "VSM_LBT6094_operator_multicam", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152", "ACE_Vector" };
     respawnLinkedItems[] = { "VSM_LBT6094_operator_multicam", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_ancprc152", "ACE_Vector" };
 
-    weapons[]        = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
-    respawnWeapons[] = { QGVAR(weapon_M4A1), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    weapons[]        = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "Throw", "Put" };
+    respawnWeapons[] = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "Throw", "Put" };
 
-    magazines[]        = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
-    respawnMagazines[] = { MAG_5(30Rnd_556x45_Stanag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    magazines[]        = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
+    respawnMagazines[] = { MAG_5(Tier1_30Rnd_556x45_M855A1_EMag), MAG_2(rhsusf_mag_17Rnd_9x19_JHP), "SmokeShell", "SmokeShellGreen", "Chemlight_green", "Chemlight_green", MAG_2(HandGrenade) };
 };
 UCOPY(PilotHelicopter)
 

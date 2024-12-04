@@ -13,18 +13,18 @@ class CfgMainMenuSpotlight {
     class GVAR(1MainOperations) {
         text = "Main Operations Server";
         picture = "\z\tfp\addons\menu\res\server_1.paa";
-        action = "connectToServer ['141.95.72.12', 2302, 'SENTPMC']";
+        action = "connectToServer ['', 2302, 'TFPOORAH']";
         actionText = "Connect";
         condition = "true";
     };
 
-    class GVAR(2Training) {
-        text = "Training Server";
-        picture = "\z\tfp\addons\menu\res\server_2.paa";
-        action = "connectToServer ['141.95.72.12', 2402, 'SENTPMC']";
-        actionText = "Connect";
-        condition = "true";
-    };
+    // class GVAR(2Training) {
+    //     text = "Training Server";
+    //     picture = "\z\tfp\addons\menu\res\server_2.paa";
+    //     action = "connectToServer ['host', 0, 'password']";
+    //     actionText = "Connect";
+    //     condition = "true";
+    // };
 
     delete SP_FD14;
     delete OldMan;

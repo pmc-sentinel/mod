@@ -50,7 +50,10 @@
             <English>Squad with Transport</English>
         </Key>
         <Key ID="STR_tfp_Units_Group_SP_ReconTeam">
-            <English>Recon Team</English>
+            <English>Recon Team (M110k5 ACS)</English>
+        </Key>
+        <Key ID="STR_tfp_Units_Group_SP_ReconTeam_VSS">
+            <English>Recon Team (VSS Vintorez)</English>
         </Key>
         <Key ID="STR_tfp_Units_Group_SU_GunnerPair">
             <English>Suppression Team</English>
@@ -61,8 +64,11 @@
         <Key ID="STR_tfp_Units_Soldier_EOD">
             <English>Explosive Specialist</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_Marksman">
-            <English>Marksman</English>
+        <Key ID="STR_tfp_Units_Soldier_Marksman_M110">
+            <English>Marksman (M110k5 ACS)</English>
+        </Key>
+        <Key ID="STR_tfp_Units_Soldier_Marksman_VSS">
+            <English>Marksman (VSS Vintorez)</English>
         </Key>
         <Key ID="STR_tfp_Units_Soldier_Medic">
             <English>Medic</English>
@@ -76,8 +82,11 @@
         <Key ID="STR_tfp_Units_Soldier_PilotHelicopter">
             <English>Helicopter Pilot</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_Rifleman">
-            <English>Rifleman</English>
+        <Key ID="STR_tfp_Units_Soldier_Rifleman_AK">
+            <English>Rifleman (AK-103)</English>
+        </Key>
+        <Key ID="STR_tfp_Units_Soldier_Rifleman_MCX">
+            <English>Rifleman (MCX Virtus)</English>
         </Key>
         <Key ID="STR_tfp_Units_Soldier_SquadLeader">
             <English>Squad Leader</English>

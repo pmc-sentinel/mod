@@ -127,6 +127,15 @@ class CfgGroups {
                     UNIT_1(CORPORAL,GVAR(blufor_D_Marksman));
                     UNIT_2(CORPORAL,GVAR(blufor_D_Marksman));
                 };
+
+                class GVAR(blufor_D_so_recon_vss) {
+                    name = CSTRING(Group_SP_ReconTeam_VSS);
+                    GMETA(D);
+
+                    UNIT_0(SERGEANT,GVAR(blufor_D_SquadLeader));
+                    UNIT_1(CORPORAL,GVAR(blufor_D_Marksman_VSS));
+                    UNIT_2(CORPORAL,GVAR(blufor_D_Marksman_VSS));
+                };
             };
 
             class Support {
@@ -269,6 +278,15 @@ class CfgGroups {
                     UNIT_0(SERGEANT,GVAR(blufor_W_SquadLeader));
                     UNIT_1(CORPORAL,GVAR(blufor_W_Marksman));
                     UNIT_2(CORPORAL,GVAR(blufor_W_Marksman));
+                };
+
+                class GVAR(blufor_W_so_recon_vss) {
+                    name = CSTRING(Group_SP_ReconTeam_VSS);
+                    GMETA(W);
+
+                    UNIT_0(SERGEANT,GVAR(blufor_W_SquadLeader));
+                    UNIT_1(CORPORAL,GVAR(blufor_W_Marksman_VSS));
+                    UNIT_2(CORPORAL,GVAR(blufor_W_Marksman_VSS));
                 };
             };
 
