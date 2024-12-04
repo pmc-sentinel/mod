@@ -4,7 +4,7 @@
         <Key ID="STR_tfp_Common_tfpTeam">
             <English>Task Force Prometheus Team</English>
         </Key>
-        <Key ID="STR_tfp_Main_Name">
+        <Key ID="STR_tfp_Common_Name">
             <English>Task Force Prometheus</English>
         </Key>
     </Package>
