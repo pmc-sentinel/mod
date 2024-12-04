@@ -2,7 +2,7 @@ name             = "Task Force Prometheus";
 author           = "Task Force Prometheus Team";
 
 actionName       = "Discord";
-action           = "https://discord.gg/Ctfu2DTb7f";
+action           = "https://discord.gg/PNWbP8CbKx";
 
 overview         = "Adds Task Force Prometheus as a playable faction.";
 

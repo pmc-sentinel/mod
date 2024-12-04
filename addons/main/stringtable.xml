@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="tfp">
     <Package name="Main">
-        <Key ID="STR_tfp_Main_Author">
-            <English>Task Force Prometheus Team</English>
-        </Key>
-        <Key ID="STR_tfp_Main_Name">
-            <English>Task Force Prometheus</English>
-        </Key>
         <Key ID="STR_tfp_Main_URL">
-            <English>https://discord.gg/Ctfu2DTb7f</English>
+            <English>https://discord.gg/PNWbP8CbKx</English>
         </Key>
     </Package>
 </Project>

@@ -1,22 +1,22 @@
 <p align="center">
-    <img src="https://github.com/pmc-sentinel/mod/raw/main/assets/logo/PMC_Sentinel.png" width="512">
+    <img src="https://github.com/tfp-milsim/mod/raw/main/assets/logo/TFP.png" width="512">
 </p>
 
 <p align="center">
-    <a href="https://github.com/pmc-sentinel/mod/releases">
-        <img src="https://img.shields.io/github/release/pmc-sentinel/mod.svg?style=flat-square&label=Version" alt="Task Force Prometheus Mod Version">
+    <a href="https://github.com/tfp-milsim/mod/releases">
+        <img src="https://img.shields.io/github/release/tfp-milsim/mod.svg?style=flat-square&label=Version" alt="Task Force Prometheus Mod Version">
     </a>
-    <a href="https://github.com/pmc-sentinel/mod/issues">
-        <img src="https://img.shields.io/github/issues-raw/pmc-sentinel/mod.svg?style=flat-square&label=Issues" alt="Task Force Prometheus Mod Issues">
+    <a href="https://github.com/tfp-milsim/mod/issues">
+        <img src="https://img.shields.io/github/issues-raw/tfp-milsim/mod.svg?style=flat-square&label=Issues" alt="Task Force Prometheus Mod Issues">
     </a>
-    <a href="https://discord.gg/Ctfu2DTb7f">
+    <a href="https://discord.gg/PNWbP8CbKx">
         <img src="https://img.shields.io/badge/Join-Discord?style=flat-square&logo=discord&logoColor=7683D5&label=Discord&color=7683D5" alt="Task Force Prometheus Discord">
     </a>
-    <a href="https://github.com/pmc-sentinel/mod/blob/master/LICENSE">
+    <a href="https://github.com/tfp-milsim/mod/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-APL2-red.svg?style=flat-square" alt="Task Force Prometheus Mod License">
     </a>
-    <a href="https://github.com/pmc-sentinel/mods/actions/workflows/hemtt.yaml">
-        <img src="https://img.shields.io/github/actions/workflow/status/pmc-sentinel/mod/hemtt.yaml?style=flat-square" alt="Build status">
+    <a href="https://github.com/tfp-milsim/mods/actions/workflows/hemtt.yaml">
+        <img src="https://img.shields.io/github/actions/workflow/status/tfp-milsim/mod/hemtt.yaml?style=flat-square" alt="Build status">
     </a>
 </p>
 
@@ -42,7 +42,7 @@ To contribute something to the mod, simply fork this repository and submit your 
 
 ### Submitting Issues and Feature Requests
 
-Please use our [Issue Tracker](https://github.com/pmc-sentinel/mod/issues) to report a bug, propose a feature, or suggest changes to the existing ones.
+Please use our [Issue Tracker](https://github.com/tfp-milsim/mod/issues) to report a bug, propose a feature, or suggest changes to the existing ones.
 
 ## License
 
