@@ -19,6 +19,7 @@ workshop = [
     "463939057",  # ace
     "2020940806", # KAT Advanced Medical
     "843577117",  # RHSUSAF
+    "751965892",  # ACRE2
     "1875281645", # ILBE Assault Pack
     "2268351256", # Tier One Weapons
     "893349825",  # 3CB BAF Vehicles
@@ -26,10 +27,4 @@ workshop = [
 
 [hemtt.launch.editor]
 extends = "default"
-mission = "tptest.vr"
-
-[hemtt.launch.alive]
-extends = "default"
-workshop = [
-    "620260972", # ALiVE
-]
+mission = "editor.vr"
