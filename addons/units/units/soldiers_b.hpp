@@ -143,7 +143,7 @@ class GVAR(blufor_D_Autorifleman) : GVAR(blufor_D_Rifleman) {
 UCOPY(Autorifleman)
 
 class GVAR(blufor_D_Marksman) : GVAR(blufor_D_Rifleman) {
-    displayName = CSTRING(Soldier_Marksman);
+    displayName = CSTRING(Soldier_Marksman_M110);
 
     weapons[]        = { QGVAR(weapon_M110k5_ACS), "rhsusf_weap_glock17g4", "Throw", "Put" };
     respawnWeapons[] = { QGVAR(weapon_M110k5_ACS), "rhsusf_weap_glock17g4", "Throw", "Put" };

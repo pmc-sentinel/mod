@@ -10,7 +10,7 @@ class CfgVehicles {
     };
 
     class GVAR(moduleBase) : Module_F {
-        author = ECSTRING(main,Author);
+        author = ECSTRING(common,tfpTeam);
         category = "NO_CATEGORY";
         function = "";
         scope = 1;
