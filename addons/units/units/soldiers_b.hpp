@@ -23,8 +23,8 @@ class GVAR(blufor_soldier) : B_Soldier_base_F {
     engineer           = 0;
     attendant          = 0; // Has Medic trait
 
-    hiddenSelections[]         = { "Camo", "Insignia" };
-    hiddenSelectionsTextures[] = { "VSM_Multicam\Data\VSM_ARD_Multicam_1.paa", "z\tfp\addons\patches\tfp_insig.paa" };
+    hiddenSelections[]         = { "Insignia" };
+    hiddenSelectionsTextures[] = { "z\tfp\addons\patches\tfp_insig.paa" };
 
     model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
 
