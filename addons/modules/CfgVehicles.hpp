@@ -33,42 +33,6 @@ class CfgVehicles {
         };
     };
 
-    class GVAR(modulePersistSave) : GVAR(moduleBase) {
-        displayName = CSTRING(PersistSave);
-        category = QGVAR(Utilities);
-        function = QFUNC(modulePersistSave);
-    };
-
-    class GVAR(moduleAddInfantryArsenal) : GVAR(moduleBase) {
-        displayName = CSTRING(AddInfantryArsenal);
-        category = QGVAR(Utilities);
-        function = QFUNC(moduleAddInfantryArsenal);
-
-        class Attributes : AttributesBase {
-            class ModuleDescription : ModuleDescription {};
-        };
-        class ModuleDescription : ModuleDescription {
-            description[] = {
-                CSTRING(Arsenal_Description1)
-            };
-        };
-    };
-
-    class GVAR(moduleAddAssetArsenal) : GVAR(moduleBase) {
-        displayName = CSTRING(AddAssetArsenal);
-        category = QGVAR(Utilities);
-        function = QFUNC(moduleAddAssetArsenal);
-
-        class Attributes : AttributesBase {
-            class ModuleDescription : ModuleDescription {};
-        };
-        class ModuleDescription : ModuleDescription {
-            description[] = {
-                CSTRING(Arsenal_Description1)
-            };
-        };
-    };
-
     class GVAR(moduleTeleport) : Module_F {
         displayName = CSTRING(Teleport);
         category = QGVAR(Utilities);

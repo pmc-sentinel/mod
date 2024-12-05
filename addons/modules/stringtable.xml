@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="tfp">
     <Package name="Modules">
-        <Key ID="STR_tfp_Modules_AddAssetArsenal">
-            <English>Spawn Asset arsenal</English>
-        </Key>
-        <Key ID="STR_tfp_Modules_AddInfantryArsenal">
-            <English>Spawn Infantry arsenal</English>
-        </Key>
-        <Key ID="STR_tfp_Modules_Arsenal_Description1">
-            <English>Adds an arsenal to the object the module is placed on.</English>
-        </Key>
         <Key ID="STR_tfp_Modules_Cat_Utilities">
             <English>Task Force Prometheus Utilities</English>
-        </Key>
-        <Key ID="STR_tfp_Modules_PersistSave">
-            <English>PERSIST Save</English>
         </Key>
         <Key ID="STR_tfp_Modules_Resupply">
             <English>Spawn resupply crate</English>

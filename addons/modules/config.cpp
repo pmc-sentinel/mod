@@ -5,10 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             QGVAR(moduleResupply),
-            QGVAR(modulePersistSave),
             QGVAR(moduleTeleport),
-            QGVAR(moduleAddInfantryArsenal),
-            QGVAR(moduleAddAssetArsenal),
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
