@@ -32,12 +32,7 @@ workshop = [
 
     # Gear
     "1870770453", # Ultimate Flag Patches - UFP
-    "2044374502", # USP Gear - Core
-    "2049719091", # USP Gear - NVG
-    "2113786615", # USP Gear - Backpacks
-    "2056229605", # USP Gear - ACE
-    "2365500050", # USP Gear - Uniforms
-    "2588603554", # USP Gear - IHPS
+    "1795825073", # USP Gear - AIO
 ]
 
 [hemtt.launch.editor]
