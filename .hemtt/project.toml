@@ -20,15 +20,24 @@ options.ignore = [
 [hemtt.launch.default]
 workshop = [
     "450814997",  # CBA_A3
-    "823636749",  # VSM All-In-One Collection
     "463939057",  # ace
     "2020940806", # KAT Advanced Medical
+    "751965892",  # ACRE2
+
+    # Weapons & Assets
     "843577117",  # RHSUSAF
     "843425103",  # RHSAFRF
-    "751965892",  # ACRE2
-    "1875281645", # ILBE Assault Pack
     "2268351256", # Tier One Weapons
     "893349825",  # 3CB BAF Vehicles
+
+    # Gear
+    "1870770453", # Ultimate Flag Patches - UFP
+    "2044374502", # USP Gear - Core
+    "2049719091", # USP Gear - NVG
+    "2113786615", # USP Gear - Backpacks
+    "2056229605", # USP Gear - ACE
+    "2365500050", # USP Gear - Uniforms
+    "2588603554", # USP Gear - IHPS
 ]
 
 [hemtt.launch.editor]

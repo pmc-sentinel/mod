@@ -68,8 +68,6 @@ class CfgPatches {
             "A3_Characters_F",
             "A3_Data_F",
             "A3_Data_F_Curator",
-            "VSM_HELMETS",
-            "VSM_Multicam_Config",
             "ace_compat_rhs_usf3",
             "ace_thermals",
             "ace_vector",
