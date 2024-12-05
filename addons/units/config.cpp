@@ -76,7 +76,7 @@ class CfgPatches {
             "rhsusf_m1165",
             "rhsusf_hmmwv"
         };
-        author = ECSTRING(common,tfpTeam);
+        author = ECSTRING(common,TFPTeam);
         authors[] = {"hbjydev"};
         url = ECSTRING(main,url);
         VERSION_CONFIG;

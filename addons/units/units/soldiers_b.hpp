@@ -3,7 +3,7 @@ class B_Soldier_base_F;
 
 // Base class for all Task Force Prometheus units
 class GVAR(blufor_soldier) : B_Soldier_base_F {
-    author       = ECSTRING(common,tfpTeam);
+    author       = ECSTRING(common,TFPTeam);
     scope        = 0; // available in 3den
     scopeCurator = 0; // available in Zeus
     scopeArsenal = 0; // available in arsenal

@@ -60,8 +60,8 @@
 #define MAG_11(a) QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a)
 #define MAG_12(a) QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a), QUOTE(a)
 
-#define B_VCREW(CAMO) author = ECSTRING(common,tfpTeam); faction = QGVAR(blufor_##CAMO); crew = QGVAR(blufor_##CAMO##_Rifleman)
-#define B_HCREW(CAMO) author = ECSTRING(common,tfpTeam); faction = QGVAR(blufor_##CAMO); crew = QGVAR(blufor_##CAMO##_PilotHelicopter)
+#define B_VCREW(CAMO) author = ECSTRING(common,TFPTeam); faction = QGVAR(blufor_##CAMO); crew = QGVAR(blufor_##CAMO##_Rifleman)
+#define B_HCREW(CAMO) author = ECSTRING(common,TFPTeam); faction = QGVAR(blufor_##CAMO); crew = QGVAR(blufor_##CAMO##_PilotHelicopter)
 
 #define VECH_V(CAMO,NEWID,OLDID) class GVAR(blufor_##CAMO##_##NEWID) : OLDID { B_VCREW(CAMO); scope = 2; scopeCurator = 2; }
 #define VECH_H(CAMO,NEWID,OLDID) class GVAR(blufor_##CAMO##_##NEWID) : OLDID { B_HCREW(CAMO); scope = 2; scopeCurator = 2; editorSubcategory = "EdSubcat_Helicopters"; }

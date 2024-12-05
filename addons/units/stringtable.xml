@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="tfp">
+<Project name="TFP">
     <Package name="Units">
-        <Key ID="STR_tfp_Units_BLUFOR_DisplayName_D">
+        <Key ID="STR_TFP_Units_BLUFOR_DisplayName_D">
             <English>Task Force Prometheus (D)</English>
         </Key>
-        <Key ID="STR_tfp_Units_BLUFOR_DisplayName_W">
+        <Key ID="STR_TFP_Units_BLUFOR_DisplayName_W">
             <English>Task Force Prometheus (W)</English>
         </Key>
-        <Key ID="STR_tfp_Units_GroupSet_Infantry">
+        <Key ID="STR_TFP_Units_GroupSet_Infantry">
             <English>Infantry</English>
         </Key>
-        <Key ID="STR_tfp_Units_GroupSet_Motorized">
+        <Key ID="STR_TFP_Units_GroupSet_Motorized">
             <English>Motorized Infantry</English>
         </Key>
-        <Key ID="STR_tfp_Units_GroupSet_SpecOps">
+        <Key ID="STR_TFP_Units_GroupSet_SpecOps">
             <English>Special Operations</English>
         </Key>
-        <Key ID="STR_tfp_Units_GroupSet_Support">
+        <Key ID="STR_TFP_Units_GroupSet_Support">
             <English>Support Infantry</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_I_FireTeam">
+        <Key ID="STR_TFP_Units_Group_I_FireTeam">
             <English>Fire Team</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_I_FireTeam_AA">
+        <Key ID="STR_TFP_Units_Group_I_FireTeam_AA">
             <English>Fire Team (AA)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_I_FireTeam_AT">
+        <Key ID="STR_TFP_Units_Group_I_FireTeam_AT">
             <English>Fire Team (AT)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_I_FireTeam_CLS">
+        <Key ID="STR_TFP_Units_Group_I_FireTeam_CLS">
             <English>Fire Team (CLS)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_I_FireTeam_EOD">
+        <Key ID="STR_TFP_Units_Group_I_FireTeam_EOD">
             <English>Fire Team (EOD)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_I_Squad">
+        <Key ID="STR_TFP_Units_Group_I_Squad">
             <English>Squad</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_MO_Patrol">
+        <Key ID="STR_TFP_Units_Group_MO_Patrol">
             <English>Motorized Patrol</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_MO_PatrolHeavy">
+        <Key ID="STR_TFP_Units_Group_MO_PatrolHeavy">
             <English>Motorized Patrol (Heavy)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_MO_PatrolM1165A1">
+        <Key ID="STR_TFP_Units_Group_MO_PatrolM1165A1">
             <English>Motorized Patrol (M1165A1)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_MO_Transport">
+        <Key ID="STR_TFP_Units_Group_MO_Transport">
             <English>Squad with Transport</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_SP_ReconTeam">
+        <Key ID="STR_TFP_Units_Group_SP_ReconTeam">
             <English>Recon Team (M110k5 ACS)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_SP_ReconTeam_VSS">
+        <Key ID="STR_TFP_Units_Group_SP_ReconTeam_VSS">
             <English>Recon Team (VSS Vintorez)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Group_SU_GunnerPair">
+        <Key ID="STR_TFP_Units_Group_SU_GunnerPair">
             <English>Suppression Team</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_Autorifleman">
+        <Key ID="STR_TFP_Units_Soldier_Autorifleman">
             <English>Autorifleman</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_EOD">
+        <Key ID="STR_TFP_Units_Soldier_EOD">
             <English>Explosive Specialist</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_Marksman_M110">
+        <Key ID="STR_TFP_Units_Soldier_Marksman_M110">
             <English>Marksman (M110k5 ACS)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_Marksman_VSS">
+        <Key ID="STR_TFP_Units_Soldier_Marksman_VSS">
             <English>Marksman (VSS Vintorez)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_Medic">
+        <Key ID="STR_TFP_Units_Soldier_Medic">
             <English>Medic</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_MissileSpecialist">
+        <Key ID="STR_TFP_Units_Soldier_MissileSpecialist">
             <English>Missile Specialist (AT)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_MissileSpecialist_AA">
+        <Key ID="STR_TFP_Units_Soldier_MissileSpecialist_AA">
             <English>Missile Specialist (AA)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_PilotHelicopter">
+        <Key ID="STR_TFP_Units_Soldier_PilotHelicopter">
             <English>Helicopter Pilot</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_Rifleman_AK">
+        <Key ID="STR_TFP_Units_Soldier_Rifleman_AK">
             <English>Rifleman (AK-103)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_Rifleman_MCX">
+        <Key ID="STR_TFP_Units_Soldier_Rifleman_MCX">
             <English>Rifleman (MCX Virtus)</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_SquadLeader">
+        <Key ID="STR_TFP_Units_Soldier_SquadLeader">
             <English>Squad Leader</English>
         </Key>
-        <Key ID="STR_tfp_Units_Soldier_TeamLeader">
+        <Key ID="STR_TFP_Units_Soldier_TeamLeader">
             <English>Team Leader</English>
         </Key>
-        <Key ID="STR_tfp_Units_UnitGroup_Helicopters">
+        <Key ID="STR_TFP_Units_UnitGroup_Helicopters">
             <English>Helicopters</English>
         </Key>
-        <Key ID="STR_tfp_Units_UnitGroup_Men">
+        <Key ID="STR_TFP_Units_UnitGroup_Men">
             <English>Men</English>
         </Key>
     </Package>

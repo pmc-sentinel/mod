@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="tfp">
+<Project name="TFP">
     <Package name="Modules">
-        <Key ID="STR_tfp_Modules_AcreSetup">
+        <Key ID="STR_TFP_Modules_AcreSetup">
             <English>ACRE Setup</English>
         </Key>
-        <Key ID="STR_tfp_Modules_AcreSetup_Description">
+        <Key ID="STR_TFP_Modules_AcreSetup_Description">
             <English>Configures ACRE radios for the entire mission.</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Cat_Utilities">
+        <Key ID="STR_TFP_Modules_Cat_Utilities">
             <English>Task Force Prometheus Utilities</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Resupply">
+        <Key ID="STR_TFP_Modules_Resupply">
             <English>Spawn resupply crate</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Resupply_Description1">
+        <Key ID="STR_TFP_Modules_Resupply_Description1">
             <English>Get all ammunition for everyone's guns and generate a crate with 10 of each of them.</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Arsenal_AssetPreset">
+        <Key ID="STR_TFP_Modules_Settings_Arsenal_AssetPreset">
             <English>Asset arsenal preset</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Arsenal_Category">
+        <Key ID="STR_TFP_Modules_Settings_Arsenal_Category">
             <English>Task Force Prometheus Arsenal</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Arsenal_InfantryPreset">
+        <Key ID="STR_TFP_Modules_Settings_Arsenal_InfantryPreset">
             <English>Infantry arsenal preset</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_Bandages">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_Bandages">
             <English>Bandages per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_BinocularMags">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_BinocularMags">
             <English>Binocular batteries per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_Category">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_Category">
             <English>Task Force Prometheus Resupply</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_Fluids">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_Fluids">
             <English>Fluids per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_FragGrenades">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_FragGrenades">
             <English>Frag grenades per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_Grenades">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_Grenades">
             <English>Grenades</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_HandgunMags">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_HandgunMags">
             <English>Handgun magazines per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_MedItems">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_MedItems">
             <English>Items (tourniquets, splits, etc.) per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_Medical">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_Medical">
             <English>Medical</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_Medicines">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_Medicines">
             <English>Medicines per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_PrimaryMags">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_PrimaryMags">
             <English>Primary magazines per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_SecondaryMags">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_SecondaryMags">
             <English>Secondary magazines per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Settings_Resupply_SmokeShells">
+        <Key ID="STR_TFP_Modules_Settings_Resupply_SmokeShells">
             <English>Smoke grenades per player</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Teleport">
+        <Key ID="STR_TFP_Modules_Teleport">
             <English>ACE Teleport</English>
         </Key>
-        <Key ID="STR_tfp_Modules_TeleportDisplay">
+        <Key ID="STR_TFP_Modules_TeleportDisplay">
             <English>Menu text</English>
         </Key>
-        <Key ID="STR_tfp_Modules_TeleportDisplayTooltip">
+        <Key ID="STR_TFP_Modules_TeleportDisplayTooltip">
             <English>The text to display in the ACE interact menu.</English>
         </Key>
-        <Key ID="STR_tfp_Modules_TeleportTarget">
+        <Key ID="STR_TFP_Modules_TeleportTarget">
             <English>Target</English>
         </Key>
-        <Key ID="STR_tfp_Modules_TeleportTargetTooltip">
+        <Key ID="STR_TFP_Modules_TeleportTargetTooltip">
             <English>The variable name of the invisible helipad to teleport to.</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Teleport_Description1">
+        <Key ID="STR_TFP_Modules_Teleport_Description1">
             <English>ACE Teleport sets up an ACE interaction to teleport the player to the position of an object stored in a variable.</English>
         </Key>
-        <Key ID="STR_tfp_Modules_Teleport_Description2">
+        <Key ID="STR_TFP_Modules_Teleport_Description2">
             <English>To configure it, sync an object that will become the trigger (have the ACE interaction added to it), and then create an invisible helipad where you want the player to teleport to. Give it a variable name under 'Init', and store that in this module's 'Target' field.</English>
         </Key>
     </Package>

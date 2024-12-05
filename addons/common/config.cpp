@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {};
-        author = CSTRING(tfpTeam);
+        author = CSTRING(TFPTeam);
         authors[] = {"hbjydev"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

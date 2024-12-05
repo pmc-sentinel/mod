@@ -1,5 +1,5 @@
 class GVAR(blufor_W_M1165A1) : rhsusf_m1165a1_gmv_m2_m240_socom_d {
-    author = ECSTRING(common,tfpTeam);
+    author = ECSTRING(common,TFPTeam);
     faction = QGVAR(blufor_W);
     crew = QGVAR(blufor_W_Rifleman);
     scope = 2;

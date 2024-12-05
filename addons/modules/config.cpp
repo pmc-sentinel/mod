@@ -18,7 +18,7 @@ class CfgPatches {
             "ace_arsenal",
             "acre_api",
         };
-        author = ECSTRING(common,tfpTeam);
+        author = ECSTRING(common,TFPTeam);
         authors[] = {"hbjydev"};
         url = ECSTRING(main,url);
         VERSION_CONFIG;

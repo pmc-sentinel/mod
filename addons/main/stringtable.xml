@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="tfp">
+<Project name="TFP">
     <Package name="Main">
-        <Key ID="STR_tfp_Main_URL">
+        <Key ID="STR_TFP_Main_URL">
             <English>https://discord.gg/PNWbP8CbKx</English>
         </Key>
     </Package>

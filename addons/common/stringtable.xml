@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="tfp">
+<Project name="TFP">
     <Package name="Common">
-        <Key ID="STR_tfp_Common_Name">
+        <Key ID="STR_TFP_Common_Name">
             <English>Task Force Prometheus</English>
         </Key>
-        <Key ID="STR_tfp_Common_tfpTeam">
+        <Key ID="STR_TFP_Common_TFPTeam">
             <English>Task Force Prometheus Team</English>
         </Key>
     </Package>
