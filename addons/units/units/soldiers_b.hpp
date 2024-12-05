@@ -30,8 +30,8 @@ class GVAR(blufor_soldier) : B_Soldier_base_F {
 
     uniformClass = "USP_G3C_MC";
 
-    linkedItems[]        = { "rhsusf_spcs_ocp_rifleman_alt", "USP_IHPS_COV_CT3_TAN_MC", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
-    respawnLinkedItems[] = { "rhsusf_spcs_ocp_rifleman_alt", "USP_IHPS_COV_CT3_TAN_MC", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
+    linkedItems[]        = { "USP_CRYE_JPC_ASLTB", "USP_OPSCORE_FASTMTC_G", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
+    respawnLinkedItems[] = { "USP_CRYE_JPC_ASLTB", "USP_OPSCORE_FASTMTC_G", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
 };
 
 class GVAR(blufor_D_Rifleman) : GVAR(blufor_soldier) {
@@ -169,8 +169,8 @@ class GVAR(blufor_D_PilotHelicopter) : GVAR(blufor_D_Rifleman) {
 
     backpack = "USP_REEBOW_3DAP_ACC4_MC";
 
-    linkedItems[]        = { "rhsusf_spcs_ocp_rifleman_alt", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
-    respawnLinkedItems[] = { "rhsusf_spcs_ocp_rifleman_alt", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
+    linkedItems[]        = { "USP_CRYE_JPC_ASLTB", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
+    respawnLinkedItems[] = { "USP_CRYE_JPC_ASLTB", "rhsusf_hgu56p_black", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ACE_Vector" };
 
     weapons[]        = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "Throw", "Put" };
     respawnWeapons[] = { QGVAR(weapon_SIG_MCX_115_Virtus), "rhsusf_weap_glock17g4", "Throw", "Put" };
