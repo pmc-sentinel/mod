@@ -67,4 +67,22 @@ class CfgVehicles {
             };
         };
     };
+
+    class GVAR(moduleAcreSetup) : Module_F {
+        displayName = CSTRING(AcreSetup);
+        category = QGVAR(Utilities);
+        function = QFUNC(moduleAcreSetup);
+        scope = 2;
+        scopeCurator = 1;
+
+        class Attributes : AttributesBase {
+            class ModuleDescription : ModuleDescription {};
+        };
+
+        class ModuleDescription : ModuleDescription {
+            description[] = {
+                CSTRING(AcreSetup_Description),
+            };
+        };
+    };
 };

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="tfp">
     <Package name="Modules">
+        <Key ID="STR_tfp_Modules_AcreSetup">
+            <English>ACRE Setup</English>
+        </Key>
+        <Key ID="STR_tfp_Modules_AcreSetup_Description">
+            <English>Configures ACRE radios for the entire mission.</English>
+        </Key>
         <Key ID="STR_tfp_Modules_Cat_Utilities">
             <English>Task Force Prometheus Utilities</English>
         </Key>

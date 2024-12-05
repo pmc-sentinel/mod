@@ -6,30 +6,183 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=1;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
 	class ItemIDProvider
 	{
-		nextID=13;
+		nextID=23;
 	};
 	class Camera
 	{
-		pos[]={3307.7195,14.327788,1945.3733};
-		dir[]={0.61598456,-0.76484722,-0.1890423};
-		up[]={0.7311753,0.64422077,-0.22439425};
-		aside[]={-0.29341203,1.8793653e-06,-0.95606077};
+		pos[]={3310.998,7.3570499,1935.3};
+		dir[]={0.48531425,-0.58179206,-0.65284777};
+		up[]={0.34711364,0.81329989,-0.46694088};
+		aside[]={-0.80261958,1.4191028e-06,-0.59664786};
 	};
 };
 binarizationWanted=0;
-sourceName="tfp_editor_test";
+sourceName="editor";
+addons[]=
+{
+	"tfp_modules",
+	"tfp_units",
+	"Tier1_Weapons_cfg",
+	"rhsusf_c_weapons",
+	"ace_compat_rhs_usf3",
+	"A3_Weapons_F",
+	"acre_main",
+	"A3_Characters_F_Heads",
+	"ace_goggles",
+	"USP_Gear_Head",
+	"USP_Gear_Body",
+	"ace_realisticnames",
+	"ace_medical_treatment",
+	"acre_sys_prc343",
+	"USP_Gear_Vest",
+	"ace_attach",
+	"ace_chemlights",
+	"acre_sys_prc152",
+	"A3_Modules_F_Curator_Curator"
+};
 class AddonsMetaData
 {
+	class List
+	{
+		items=18;
+		class Item0
+		{
+			className="tfp_modules";
+			name="Task Force Prometheus Factions - Modules";
+			author="Task Force Prometheus Team";
+			url="https://discord.gg/PNWbP8CbKx";
+		};
+		class Item1
+		{
+			className="tfp_units";
+			name="Task Force Prometheus Factions - Units";
+			author="Task Force Prometheus Team";
+			url="https://discord.gg/PNWbP8CbKx";
+		};
+		class Item2
+		{
+			className="Tier1_Weapons_cfg";
+			name="Tier1_Weapons_cfg";
+		};
+		class Item3
+		{
+			className="rhsusf_c_weapons";
+			name="RHSUSF Weapons & Accessories";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item4
+		{
+			className="ace_compat_rhs_usf3";
+			name="ACE3 - RHS USAF Compatibility";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item5
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="acre_main";
+			name="ACRE2 - Main";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item7
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
+			className="ace_goggles";
+			name="ACE3 - Goggles";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item9
+		{
+			className="USP_Gear_Head";
+			name="USP_Gear_Head";
+		};
+		class Item10
+		{
+			className="USP_Gear_Body";
+			name="USP Gear (Body)";
+			author="UnderSiege Productions";
+			url="https://uspmod.com/";
+		};
+		class Item11
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item12
+		{
+			className="acre_sys_prc343";
+			name="ACRE2 - AN/PRC-343";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item13
+		{
+			className="USP_Gear_Vest";
+			name="USP_Gear_Vest";
+			author="UnderSiege Productionz";
+		};
+		class Item14
+		{
+			className="ace_attach";
+			name="ACE3 - Attach";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item15
+		{
+			className="ace_chemlights";
+			name="ACE3 - Chemlights";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item16
+		{
+			className="acre_sys_prc152";
+			name="ACRE2 - AN/PRC-152";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item17
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+dlcs[]=
+{
+	"RHS_USAF",
+	"USP_GearUniforms"
 };
 randomSeed=3125447;
 class ScenarioData
 {
 	author="hayden";
-};
-class CustomAttributes
-{
 };
 class Mission
 {
@@ -54,16 +207,292 @@ class Mission
 	};
 	class Entities
 	{
-		items=1;
+		items=3;
 		class Item0
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3311.9099,5,1936.0714};
+			};
+			id=13;
+			type="tfp_modules_moduleAcreSetup";
+		};
+		class Item1
 		{
 			dataType="Group";
 			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3311.9651,5.0014386,1933.2311};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						rank="SERGEANT";
+						name="z1";
+						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="tfp_units_weapon_SIG_MCX_115_Virtus";
+								optics="Tier1_Eotech551_3xMag_Black_Up";
+								firemode="tfp_units_weapon_SIG_MCX_115_Virtus:Single";
+								class primaryMuzzleMag
+								{
+									name="Tier1_30Rnd_556x45_M855A1_EMag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="rhsusf_weap_glock17g4";
+								class primaryMuzzleMag
+								{
+									name="rhsusf_mag_17Rnd_9x19_JHP";
+									ammoLeft=17;
+								};
+							};
+							class uniform
+							{
+								typeName="USP_G3C_MC";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="SmokeShell";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="ACE_packingBandage";
+										count=5;
+									};
+									class Item1
+									{
+										name="ACE_elasticBandage";
+										count=5;
+									};
+									class Item2
+									{
+										name="ACE_morphine";
+										count=3;
+									};
+									class Item3
+									{
+										name="ACE_epinephrine";
+										count=3;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item5
+									{
+										name="ACE_splint";
+										count=2;
+									};
+									class Item6
+									{
+										name="ACRE_PRC343";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="USP_CRYE_JPC_ASLTB";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="Tier1_30Rnd_556x45_M855A1_EMag";
+										count=4;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="rhsusf_mag_17Rnd_9x19_JHP";
+										count=1;
+										ammoLeft=17;
+									};
+									class Item2
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="Chemlight_green";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="USP_REEBOW_3DAP_ACC4_MC";
+								isBackpack=1;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACRE_PRC152";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Tactical_Clear";
+							headgear="USP_OPSCORE_FASTMTC_G";
+						};
+					};
+					id=15;
+					type="tfp_units_blufor_D_TeamLeader";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="aceax_textureOptions";
+							expression="[_this, _value, false] call aceax_gearinfo_fnc_setTextureOptions;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="[[""USP_G3C_pantscamo"",""""],[""USP_G3C_mxcamo"",""""],[""USP_G3C_orcamo"",""""],[""USP_G3C_flagright"",""""],[""USP_G3C_flagleft"",""""]]";
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
 			class Attributes
 			{
 			};
-			id=0;
-			atlOffset=-5;
+			id=14;
+		};
+		class Item2
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3311.1621,5,1933.223};
+			};
+			id=22;
+			type="ModuleCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="z1";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				nAttributes=4;
+			};
 		};
 	};
 };

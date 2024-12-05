@@ -34,7 +34,8 @@ workshop = [
     "1870770453", # Ultimate Flag Patches - UFP
     "1795825073", # USP Gear - AIO
 ]
-
-[hemtt.launch.editor]
-extends = "default"
 mission = "editor.vr"
+
+[hemtt.launch.modpack]
+extends = "default"
+presets = ["tfpv1"]
