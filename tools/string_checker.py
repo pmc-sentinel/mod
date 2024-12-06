@@ -15,7 +15,7 @@ def getDefinedStrings(filepath):
     # print("getDefinedStrings {0}".format(filepath))
     with open(filepath, 'r', encoding="latin-1") as file:
         content = file.read()
-        srch = re.compile(r'Key ID\=\"(STR_tfp_[_a-zA-Z0-9]*)"', re.IGNORECASE)
+        srch = re.compile(r'Key ID\=\"(STR_TFP_[_a-zA-Z0-9]*)"', re.IGNORECASE)
         modStrings = srch.findall(content)
     modStrings = [s.lower() for s in modStrings]
     return modStrings
@@ -29,7 +29,7 @@ def getStringUsage(filepath):
     with open(filepath, 'r', encoding="latin-1") as file:
         content = file.read()
 
-        srch = re.compile(r'(STR_tfp_[_a-zA-Z0-9]*)', re.IGNORECASE)
+        srch = re.compile(r'(STR_TFP_[_a-zA-Z0-9]*)', re.IGNORECASE)
         fileStrings = srch.findall(content)
 
         srch = re.compile(r'[^E][CL]STRING\(([_a-zA-Z0-9]*)\)', re.IGNORECASE)
