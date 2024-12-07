@@ -30,7 +30,6 @@ workshop = [
     "2268351256", # Tier One Weapons
 
     # Gear
-    "1870770453", # Ultimate Flag Patches - UFP
     "1795825073", # USP Gear - AIO
 ]
 mission = "editor.vr"
