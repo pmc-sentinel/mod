@@ -6,20 +6,16 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=6;
-	mods[]=
-	{
-		"3denEnhanced"
-	};
 	class ItemIDProvider
 	{
-		nextID=52;
+		nextID=70;
 	};
 	class Camera
 	{
-		pos[]={3308.6919,9.0716238,1938.9634};
-		dir[]={0.45436028,-0.50127429,-0.73639733};
-		up[]={0.26321754,0.86528838,-0.42660573};
-		aside[]={-0.85104257,0,-0.52509683};
+		pos[]={3310.6475,10.978067,1940.5604};
+		dir[]={0.1355174,-0.63879526,-0.75747353};
+		up[]={0.11250056,0.76935595,-0.62882739};
+		aside[]={-0.98446846,2.2845161e-06,-0.17612307};
 	};
 };
 binarizationWanted=0;
@@ -30,7 +26,6 @@ addons[]=
 	"tfp_units",
 	"rhs_c_weapons",
 	"rhsusf_c_weapons",
-	"tsp_melee_sledge",
 	"Tier1_Weapons_cfg",
 	"A3_Weapons_F",
 	"A3_Weapons_F_Mark",
@@ -43,7 +38,6 @@ addons[]=
 	"ace_intelitems",
 	"acre_sys_bf888s",
 	"acre_sys_prc152",
-	"cTab",
 	"ace_trenches",
 	"ace_fortify",
 	"ace_flashlights",
@@ -53,7 +47,6 @@ addons[]=
 	"ace_attach",
 	"ace_chemlights",
 	"ace_realisticnames",
-	"tsp_breach",
 	"ace_medical_treatment",
 	"kat_breathing",
 	"ace_captives",
@@ -66,7 +59,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=34;
+		items=31;
 		class Item0
 		{
 			className="tfp_modules";
@@ -97,198 +90,182 @@ class AddonsMetaData
 		};
 		class Item4
 		{
-			className="tsp_melee_sledge";
-			name="tsp_melee_sledge";
-		};
-		class Item5
-		{
 			className="Tier1_Weapons_cfg";
 			name="Tier1_Weapons_cfg";
 		};
-		class Item6
+		class Item5
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item6
 		{
 			className="A3_Weapons_F_Mark";
 			name="Arma 3 Marksmen - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item7
 		{
 			className="ace_laser";
 			name="ACE3 - Laser";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item9
+		class Item8
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item10
+		class Item9
 		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item11
+		class Item10
 		{
 			className="USP_Gear_NVG";
 			name="USP Gear (NVG)";
 			author="UnderSiege Productions";
 			url="https://uspmod.com/";
 		};
-		class Item12
+		class Item11
 		{
 			className="USP_Gear_Head";
 			name="USP_Gear_Head";
 		};
-		class Item13
+		class Item12
 		{
 			className="USP_Gear_Body";
 			name="USP Gear (Body)";
 			author="UnderSiege Productions";
 			url="https://uspmod.com/";
 		};
-		class Item14
+		class Item13
 		{
 			className="ace_intelitems";
 			name="ACE3 - Intel Items";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item15
+		class Item14
 		{
 			className="acre_sys_bf888s";
 			name="ACRE2 - BF 888S";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item16
+		class Item15
 		{
 			className="acre_sys_prc152";
 			name="ACRE2 - AN/PRC-152";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item17
-		{
-			className="cTab";
-			name="cTab";
-			author="cTab";
-		};
-		class Item18
+		class Item16
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item19
+		class Item17
 		{
 			className="ace_fortify";
 			name="ACE3 - Fortify";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item20
+		class Item18
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item21
+		class Item19
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item22
+		class Item20
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item23
+		class Item21
 		{
 			className="USP_Gear_Vest";
 			name="USP_Gear_Vest";
 			author="UnderSiege Productionz";
 		};
-		class Item24
+		class Item22
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item25
+		class Item23
 		{
 			className="ace_chemlights";
 			name="ACE3 - Chemlights";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item26
+		class Item24
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item27
-		{
-			className="tsp_breach";
-			name="tsp_breach";
-		};
-		class Item28
+		class Item25
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item29
+		class Item26
 		{
 			className="kat_breathing";
 			name="KAT - KAT - Breathing";
 			author="Katalam";
 			url="https://github.com/KAT-Advanced-Medical/KAM";
 		};
-		class Item30
+		class Item27
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item31
+		class Item28
 		{
 			className="acre_sys_gsa";
 			name="ACRE2 - Ground Spike Antenna";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item32
+		class Item29
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item33
+		class Item30
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
@@ -640,20 +617,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute2
-						{
-							property="aceax_textureOptions";
-							expression="[_this, _value, false] call aceax_gearinfo_fnc_setTextureOptions;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="[[""USP_G3C_pantscamo"",""""],[""USP_G3C_mxcamo"",""""],[""USP_G3C_orcamo"",""""],[""USP_G3C_flagright"",""""],[""USP_G3C_flagleft"",""""]]";
-								};
-							};
-						};
-						nAttributes=3;
+						nAttributes=2;
 					};
 				};
 			};

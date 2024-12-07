@@ -10,20 +10,26 @@
 #define UNIT_0_POS {0,0,0}
 #define UNIT_0(RANK,UNIT) UNIT_XX(0,UNIT_0_POS,RANK,UNIT)
 
-#define UNIT_1_POS {5,-5,0}
+#define UNIT_1_POS {0,-2,0}
 #define UNIT_1(RANK,UNIT) UNIT_XX(1,UNIT_1_POS,RANK,UNIT)
 
-#define UNIT_2_POS {-5,-5,0}
+#define UNIT_2_POS {0,-4,0}
 #define UNIT_2(RANK,UNIT) UNIT_XX(2,UNIT_2_POS,RANK,UNIT)
 
-#define UNIT_3_POS {10,-10,0}
+#define UNIT_3_POS {0,-6,0}
 #define UNIT_3(RANK,UNIT) UNIT_XX(3,UNIT_3_POS,RANK,UNIT)
 
-#define UNIT_4_POS {0,-5,0}
+#define UNIT_4_POS {2,0,0}
 #define UNIT_4(RANK,UNIT) UNIT_XX(4,UNIT_4_POS,RANK,UNIT)
 
-#define UNIT_5_POS {5,-10,0}
+#define UNIT_5_POS {2,-2,0}
 #define UNIT_5(RANK,UNIT) UNIT_XX(5,UNIT_5_POS,RANK,UNIT)
+
+#define UNIT_6_POS {2,-4,0}
+#define UNIT_6(RANK,UNIT) UNIT_XX(6,UNIT_6_POS,RANK,UNIT)
+
+#define UNIT_7_POS {2,-6,0}
+#define UNIT_7(RANK,UNIT) UNIT_XX(7,UNIT_7_POS,RANK,UNIT)
 
 #define MACRO_ADDUNITGROUP(SIDE,IDX,NAME,PRIORITY) class GVAR(SIDE##_##IDX) { \
     displayName = NAME; \
@@ -84,3 +90,6 @@
 
 #define UPAIR(IDX) QGVAR(blufor_W_##IDX),QGVAR(blufor_D_##IDX)
 #define UVPAIR(IDX) QGVAR(blufor_vech_W_##IDX),QGVAR(blufor_vech_D_##IDX)
+
+#define GVECH(CAMO,ID) GVAR(blufor_vech_##CAMO##_##ID)
+#define QGVECH(CAMO,ID) QGVAR(blufor_vech_##CAMO##_##ID)

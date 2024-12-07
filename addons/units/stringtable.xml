@@ -28,9 +28,6 @@
         <Key ID="STR_TFP_Units_Group_I_FireTeam_AT">
             <English>Fire Team (AT)</English>
         </Key>
-        <Key ID="STR_TFP_Units_Group_I_FireTeam_CLS">
-            <English>Fire Team (CLS)</English>
-        </Key>
         <Key ID="STR_TFP_Units_Group_I_FireTeam_EOD">
             <English>Fire Team (EOD)</English>
         </Key>
