@@ -63,8 +63,8 @@
 #define B_VCREW(CAMO) author = ECSTRING(common,TFPTeam); faction = QGVAR(blufor_##CAMO); crew = QGVAR(blufor_##CAMO##_Rifleman)
 #define B_HCREW(CAMO) author = ECSTRING(common,TFPTeam); faction = QGVAR(blufor_##CAMO); crew = QGVAR(blufor_##CAMO##_PilotHelicopter)
 
-#define VECH_V(CAMO,NEWID,OLDID) class GVAR(blufor_##CAMO##_##NEWID) : OLDID { B_VCREW(CAMO); scope = 2; scopeCurator = 2; }
-#define VECH_H(CAMO,NEWID,OLDID) class GVAR(blufor_##CAMO##_##NEWID) : OLDID { B_HCREW(CAMO); scope = 2; scopeCurator = 2; editorSubcategory = "EdSubcat_Helicopters"; }
+#define VECH_V(CAMO,NEWID,OLDID) class GVAR(blufor_vech_##CAMO##_##NEWID) : OLDID { B_VCREW(CAMO); scope = 2; scopeCurator = 2; }
+#define VECH_H(CAMO,NEWID,OLDID) class GVAR(blufor_vech_##CAMO##_##NEWID) : OLDID { B_HCREW(CAMO); scope = 2; scopeCurator = 2; editorSubcategory = "EdSubcat_Helicopters"; }
 
 #define GV_OR(CAMO,NEWID,OLDID) class OLDID; VECH_V(CAMO,NEWID,OLDID);
 #define GV_OR_NI(CAMO,NEWID,OLDID) VECH_V(CAMO,NEWID,OLDID);
@@ -83,3 +83,4 @@
 #define AV_W_OR_NI(NEWID,OLDID) AV_OR_NI(W,NEWID,OLDID)
 
 #define UPAIR(IDX) QGVAR(blufor_W_##IDX),QGVAR(blufor_D_##IDX)
+#define UVPAIR(IDX) QGVAR(blufor_vech_W_##IDX),QGVAR(blufor_vech_D_##IDX)
