@@ -13,7 +13,7 @@ class CfgMainMenuSpotlight {
     class GVAR(1MainOperations) {
         text = "Main Operations Server";
         picture = "\z\tfp\addons\menu\res\server_1.paa";
-        action = "connectToServer ['', 2302, 'TFPOORAH']";
+        action = "connectToServer ['65.109.85.58', 2302, 'TFPFOLLOWME']";
         actionText = "Connect";
         condition = "true";
     };
